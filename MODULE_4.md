@@ -15,7 +15,7 @@ This blog series from Electric Coin is a good start:
 
 ASecuritySite.com also has some helpful interactive examples that go along with these two blog posts:
 
-- [zkSNARK (Homomorphic Hiding)](https://asecuritysite.com/zero/zksnark02)
+- [zkSNARK (Homomorphic Hiding)](https://asecuritysite.com/zero/zksnark01)
 - [zkSNARK (Blind Evaluation Problem)](https://asecuritysite.com/zero/zksnark02)
 
 ## 2. From Computation to QAP
