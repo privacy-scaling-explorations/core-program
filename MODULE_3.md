@@ -21,15 +21,13 @@ The following StackExchange answer goes over the differences between some of the
 
 EdDSA modifies and extends the Schnorr signature scheme to provide additional benefits. So it is crucial to first get an understanding of Schnorr signatures.
 
-### Schnorr Signatures
+### EC-Schnorr Signatures
 
-Schnorr signatures are a digital signature scheme known for their simplicity and efficiency. A key benefit is their linear structure, which allows for multi-signature aggregation.
+Schnorr signatures also can be extended to elliptic curve. A key benefit is their linear structure, which allows for multi-signature aggregation.
 
 - [Introduction to Schnorr Signatures with Elichai Turkel](https://www.youtube.com/watch?v=XKatSGCZ-gE)
 - [What Is a Schnorr Signature? (by Chainlink)](https://blog.chain.link/schnorr-signature/)
-- [Schnorr Digital Signature (by GeeksForGeeks)](https://www.geeksforgeeks.org/schnorr-digital-signature/)
 - [What The Heck Is Schnorr (by Rajarshi Maitra)](https://medium.com/bitbees/what-the-heck-is-schnorr-52ef5dba289f)
-- [Schnorr Digital Signature [4:58]](https://www.youtube.com/watch?v=mV9hXEFUB6A)
 - [Introduction to Schnorr Signatures (more technical)](https://tlu.tarilabs.com/cryptography/introduction-schnorr-signatures)
 
 Let's dive into EdDSA and see how it builds on concepts found in Schnorr Signatures.
