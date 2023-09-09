@@ -23,7 +23,7 @@ EdDSA modifies and extends the Schnorr signature scheme to provide additional be
 
 ### EC-Schnorr Signatures
 
-Schnorr signatures also can be extended to elliptic curve. A key benefit is their linear structure, which allows for multi-signature aggregation.
+Schnorr signatures can also be extended to elliptic curves. A key benefit is their linear structure, which allows for multi-signature aggregation.
 
 - [Introduction to Schnorr Signatures with Elichai Turkel](https://www.youtube.com/watch?v=XKatSGCZ-gE)
 - [What Is a Schnorr Signature? (by Chainlink)](https://blog.chain.link/schnorr-signature/)
