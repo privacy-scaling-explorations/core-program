@@ -29,7 +29,8 @@ The key difference between the two is the number of keys used: symmetric encrypt
 3. What makes RSA a popular choice for public-key encryption? 
 :::
 
-## Public-Key Cryptography and Key Exchange Protocols
+## DLP-based Public-Key Cryptography
+While RSA encryption is based on the hardness of factoring problem, there is another public key cryptography system based on hardness of Discrete Logarithm Problem (DLP).
 
 1. **Discrete Log Problem (DLP):** This is a cornerstone problem in public-key cryptography and underlies many key exchange and encryption algorithms. Understanding DLP provides a foundation for the remaining topics.
     - [The Discrete Logarithm Problem - Khan Academy [1:55]](https://youtu.be/SL7J8hPKEWY)
