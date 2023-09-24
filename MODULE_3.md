@@ -89,6 +89,11 @@ The following articles offer a great introduction to BLS signatures and why they
 
 ## KZG Polynomial Commitments
 
+Polynomial Commitments are cryptographic tools that allow the hiding of some coefficients while revealing others. They're used in various cryptographic proofs and blockchain protocols. For a better understanding of Polynomial Commitments, consider these resources:
+
+- [Polynomials](https://vitalik.ca/general/2021/01/26/snarks.html#polynomials) section of Vitalik's article on zk-SNARKs.
+- [KZG in Practice: Polynomial Commitment Schemes and Their Usage in Scaling Ethereum](https://scroll.io/blog/kzg)
+
 KZG Polynomial Commitments is another technology that relies on pairing-based cryptography. The protocol is built upon pairing-friendly elliptic curves and bilinear properties. With this protocol, both the proof and commitment size is constant, no matter the degree of the polynomial being used.
 
 Scroll's zk-rollup implementation makes use of this commitment scheme to commit to computations executed on an L2. While Ethereum’s Proto-Danksharding proposal ([EIP-4844](https://www.eip4844.com)) uses it to commit to data blobs.
