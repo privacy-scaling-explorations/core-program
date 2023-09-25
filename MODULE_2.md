@@ -29,7 +29,8 @@ The key difference between the two is the number of keys used: symmetric encrypt
 3. What makes RSA a popular choice for public-key encryption? 
 :::
 
-## Public-Key Cryptography and Key Exchange Protocols
+## DLP-based Public-Key Cryptography
+While RSA encryption is based on the hardness of factoring problem, there is another public key cryptography system based on hardness of Discrete Logarithm Problem (DLP).
 
 1. **Discrete Log Problem (DLP):** This is a cornerstone problem in public-key cryptography and underlies many key exchange and encryption algorithms. Understanding DLP provides a foundation for the remaining topics.
     - [The Discrete Logarithm Problem - Khan Academy [1:55]](https://youtu.be/SL7J8hPKEWY)
@@ -96,13 +97,7 @@ A Merkle tree is a core component of blockchain and cryptography. It's a binary 
 
 Cryptographic commitments are essential in cryptography and blockchain technology as they allow for selective hiding and revealing of information. This feature ensures data privacy while still enabling verification processes.
 
-Polynomial Commitments and Pedersen Commitments help achieve secure and efficient verification of transactions in blockchain protocols. In such contexts, sensitive information, such as transaction details or user identities, is hidden while revealing others for the verifier to authenticate the transactions.
-
-### Polynomial Commitments
-Polynomial Commitments are cryptographic tools that allow the hiding of some coefficients while revealing others. They're used in various cryptographic proofs and blockchain protocols. For a better understanding of Polynomial Commitments, consider these resources:
-
-- [Polynomials](https://vitalik.ca/general/2021/01/26/snarks.html#polynomials) section of Vitalik's article on zk-SNARKs.
-- [KZG in Practice: Polynomial Commitment Schemes and Their Usage in Scaling Ethereum](https://scroll.io/blog/kzg)
+It helps achieve secure and efficient verification of transactions in blockchain protocols. In such contexts, sensitive information, such as transaction details or user identities, is hidden while revealing others for the verifier to authenticate the transactions.
 
 ### Pedersen Commitments
 Pedersen Commitments are a type of cryptographic primitive that allows you to commit to a certain value while keeping it hidden, with the ability to disclose the committed value later. They're often used to achieve privacy-preserving properties in cryptographic protocols. For more on Pedersen Commitments, review these materials:
@@ -123,6 +118,8 @@ As a final touch on this section, [this video [10:32]](https://www.youtube.com/w
 ## Digital Signatures
 
 Digital signatures ensure the integrity and authenticity of digital messages or documents. By providing a means to verify the origin and confirm that the content has not been altered, digital signatures play a pivotal role in maintaining trust in digital communications.
+
+In PKC, anyone can encrypt their message with the receiver's public key, and only the receiver can decrypt the message with their private key. In digital signatures, on the other hand, if a signer generates a signature for a message using their private key, anyone can validate it using the signer's public key. Therefore, the message of the signature is made public, which distinguishes it from cryptographic commitments.
 
 Start your exploration of digital signatures with this intuitive video:
 - [What are Digital Signatures? - Computerphile [10:16]](https://www.youtube.com/watch?v=s22eJ1eVLTU)
