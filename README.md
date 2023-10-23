@@ -1,4 +1,4 @@
-# Summer Contribution Program
+# ZK Contribution Program
 
 This is the curriculum written for the ZK Summer Contribution Program hosted by the Privacy and Scaling Explorations team. Currently, this content is in its first iteration.
 
