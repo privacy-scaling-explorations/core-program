@@ -6,6 +6,10 @@ In this module, our primary goal is to introduce you to key concepts of ZKPs, su
 
 Let’s get started!
 
+## Tips to Learn Zero Knowledge
+
+One really useful mental model to learn zero knowledge is to blackbox the concepts so that you don't get intimidated by the complexity of the topic. This doesn't mean you ignore the details, but rather, you focus on understanding the high-level concepts first and then dive into the details.
+
 ## A Primer for Zero Knowledge Proofs
 
 Before we delve into the core content of the module, consider acquainting yourself with some high-level concepts of Zero-Knowledge Proofs. The following introductory articles will help you build a robust foundational understanding:
