@@ -17,7 +17,7 @@ The following StackExchange answer goes over the differences between some of the
 
 - [What is the difference between the RSA, DSA, and ECDSA keys that ssh uses?](https://askubuntu.com/a/1000928/733503)
 
-## Schnorr Signatures and EdDSA
+## Schnorr Signatures and EdDSA (Optional)
 
 EdDSA modifies and extends the Schnorr signature scheme to provide additional benefits. So it is crucial to first get an understanding of Schnorr signatures.
 
@@ -58,10 +58,18 @@ For more on EdDSA, check out the following links:
 
 ## Pairing-Based Cryptography (PBC)
 
-Many of the following topics will depend upon what is called pairing-based cryptography. These two articles set the stage and foundation:
+Many of the following topics will depend upon what is called pairing-based cryptography. 
+You can imagine pairing is the multiplication of elliptic curve. The original elliptic curve is additive homomorphic but not multiplicative homomorphic. Pairing is a way to mimic it.
 
-- **[Exploring Elliptic Curve Pairings by Vitalik Buterin](https://vitalik.ca/general/2017/01/14/exploring_ecp.html)** - This resource builds upon the knowledge you learned above regarding elliptic curves and sets the stage for the topics discussed below. It is an excellent introduction to the topic.
-- **[Pairings or Bilinear Maps by Alin Tomescu](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)** - This resource begins with an introduction to the three fundamental properties of bilinear maps. Building on this foundation, it further explores applications such as the Tripartite Diffie-Hellman protocol, BLS signatures, and Identity-Based Encryption (IBE).
+This is largely used in zk, especially during verification stage. 
+
+![Pairing](./assets/elliptic-curve-pairings.jpeg)
+[Source](https://www.inevitableeth.com/home/concepts/elliptic-curve-pairings)
+
+If you like to know more about it, you can check out the following resources:
+
+- **[Exploring Elliptic Curve Pairings by Vitalik Buterin (Optional)](https://vitalik.ca/general/2017/01/14/exploring_ecp.html)** - This resource builds upon the knowledge you learned above regarding elliptic curves and sets the stage for the topics discussed below. It is an excellent introduction to the topic.
+- **[Pairings or Bilinear Maps by Alin Tomescu (Optional)](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)** - This resource begins with an introduction to the three fundamental properties of bilinear maps. Building on this foundation, it further explores applications such as the Tripartite Diffie-Hellman protocol, BLS signatures, and Identity-Based Encryption (IBE).
 
 Make sure you read these two articles in full before proceeding.
 
@@ -74,9 +82,14 @@ For those who desire a deeper dive into bilinear maps and pairings, check out th
 - [Pairings in Cryptography by Dan Boneh [1:29:48]](https://www.youtube.com/watch?v=8WDOpzxpnTE)
     - **Note:** This video is very long and technical, but can be a helpful reference.
 
-## BLS Signatures
+## BLS Signatures 
 
 BLS (Boneh-Lynn-Shacham) signatures are a type of cryptographic signature scheme that allows for efficient aggregation of individual signatures into a single signature. It also makes use of pairing-based cryptography.
+
+The intuition of BLS is that it is an aggregation signature. The image below shows the public key and signature are aggregated. The advantage is all the signature can be verified at once. That's why it is used in consensus protocol.
+![BLS](./assets/bls-signatures.jpeg)
+
+### Optional Reading
 
 The following articles offer a great introduction to BLS signatures and why they are important for the scaling of Ethereum (more specifically, the Beacon Chain):
 
@@ -89,7 +102,15 @@ The following articles offer a great introduction to BLS signatures and why they
 
 ## KZG Polynomial Commitments
 
-Polynomial Commitments are cryptographic tools that allow the hiding of some coefficients while revealing others. They're used in various cryptographic proofs and blockchain protocols. For a better understanding of Polynomial Commitments, consider these resources:
+Polynomial Commitments are cryptographic tools that allow the hiding of some coefficients while revealing others. They're used in various cryptographic proofs and blockchain protocols. For a better understanding of Polynomial Commitments
+The intuition of KZG is that it is a commitment scheme. It is used to commit to a polynomial and later reveal a certain point on that polynomial. All your input data "lock" a specific polynomial.
+
+![KZG](./assets/polynomial-commitments-1.jpeg)
+
+Read this article:
+- [KZG commitment by Inevitable Ethereum](https://www.inevitableeth.com/home/concepts/kzg-commitment)
+
+### Optional Reading
 
 - [Polynomials](https://vitalik.ca/general/2021/01/26/snarks.html#polynomials) section of Vitalik's article on zk-SNARKs.
 - [KZG in Practice: Polynomial Commitment Schemes and Their Usage in Scaling Ethereum](https://scroll.io/blog/kzg)
@@ -105,6 +126,10 @@ Scroll's zk-rollup implementation makes use of this commitment scheme to commit 
 ## Trusted Setup
 
 The concept of a trusted setup is an important part of the KZG Polynomial commitment scheme, and indeed part of the wider culture of Ethereum. Here are a few resources to learn more about trusted setups.
+
+The intuition of trusted setup is that it is a process to generate a bunch of point on the elliptic curve, the prover will input these points to the polynomial commitment. Therefore the output is a point on the curve as well. Especially the generation of these points requires many people join and discard the secret value. That's why it is called trusted.
+
+### Optional Reading
 
 - [How do trusted setups work? by Vitalik Buterin](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
 - [On-Chain Trusted Setup Ceremony by a16zcrypto](https://a16zcrypto.com/posts/article/on-chain-trusted-setup-ceremony/)
