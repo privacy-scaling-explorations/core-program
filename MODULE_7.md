@@ -34,6 +34,7 @@ To get you started, here are some of the resources we recommend you go through:
 2. Read Axiom’s **[Getting Started with Halo2](https://docs.axiom.xyz/zero-knowledge-proofs/getting-started-with-halo2)**.
 3. Read Axiom’s **[Halo2 Cheatsheet](https://hackmd.io/@axiom/HyoXzD7Zh)**.
 4. Work through 0xParc’s **[Halo2 lecture series](https://learn.0xparc.org/materials/halo2/learning-group-1/introduction)**.
+5. (Optional) [An encyclopedia of halo2](https://halo2.club/)
 
 **Reference Material**
 
