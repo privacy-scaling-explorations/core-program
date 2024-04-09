@@ -1,6 +1,8 @@
-# Contribution Program
+# Core Program
 
-This is the curriculum written for the Contribution Program hosted by the Privacy and Scaling Explorations team. The purpose of the program is to teach the basics of programmable cryptography (ZK, FHE, MPC, etc.) and grow the future pool of engineers and researchers contributing to open-source software in the field.
+> Building the Next Wave of ZK Open-Source Contributors
+
+This is the curriculum written for the Core Program (formerly known as the Contribution Program) hosted by the Privacy and Scaling Explorations team. The purpose of the program is to teach the basics of programmable cryptography (ZK, FHE, MPC, etc.) and grow the future pool of engineers and researchers contributing to open-source software in the field.
 
 The target of this curriculum is to help a regular programmer with limited ZK or cryptographic knowledge get up to speed on the fundamentals of programmable cryptography and be ready to contribute to open-source community.
 
