@@ -80,7 +80,7 @@ Explore these resources to further your understanding:
 ## Merkle Trees
 
 A Merkle tree is a core component of blockchain and cryptography. It's a binary tree filled with cryptographic hashes. This structure enables efficient and secure verification of the contents of large data structures. To understand more about Merkle trees, read the following:
-- [How Merkle Trees Enable the Decentralized Web! [9:43]](https://www.youtube.com/watch?v=YIc6MNfv5iQ)
+- [How Merkle Trees Enable the Decentralized Web! [10:05]](https://www.youtube.com/watch?v=3giNelTfeAk)
 - [Merkle Trees and Merkle Roots Explained](https://academy.binance.com/en/articles/merkle-trees-and-merkle-roots-explained)
 - [Visualizing Efficient Merkle Trees for Zero-Knowledge Proofs](https://kndrck.co/posts/efficient-merkletrees-zk-proofs/)
 - [The Ultimate Merkle Tree Guide in Solidity](https://soliditydeveloper.com/merkle-tree)
