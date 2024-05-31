@@ -82,7 +82,7 @@ For those who desire a deeper dive into bilinear maps and pairings, check out th
 - [Pairings in Cryptography by Dan Boneh [1:29:48]](https://www.youtube.com/watch?v=8WDOpzxpnTE)
     - **Note:** This video is very long and technical, but can be a helpful reference.
 
-## BLS Signatures 
+## BLS Signatures
 
 BLS (Boneh-Lynn-Shacham) signatures are a type of cryptographic signature scheme that allows for efficient aggregation of individual signatures into a single signature. It also makes use of pairing-based cryptography.
 
