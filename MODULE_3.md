@@ -61,7 +61,7 @@ For more on EdDSA, check out the following links:
 Many of the following topics will depend upon what is called pairing-based cryptography. 
 You can imagine pairing as the multiplication of elliptic curves. The original elliptic curve operation is homomorphically additive but not homomorphically multiplicative. Pairing is a way to mimic this "multiplication".
 
-This is largely used in zk, especially during verification stage. 
+This is largely used in zk, especially during the verification stage. 
 
 ![Pairing](./assets/elliptic-curve-pairings.jpeg)
 [Source](https://www.inevitableeth.com/home/concepts/elliptic-curve-pairings)
