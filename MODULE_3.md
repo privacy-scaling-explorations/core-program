@@ -66,10 +66,10 @@ This is largely used in zk, especially during verification stage.
 ![Pairing](./assets/elliptic-curve-pairings.jpeg)
 [Source](https://www.inevitableeth.com/home/concepts/elliptic-curve-pairings)
 
-If you like to know more about it, you can check out the following resources:
+If you would like to know more about it, you can check out the following resources:
 
-- **[Exploring Elliptic Curve Pairings by Vitalik Buterin (Optional)](https://vitalik.ca/general/2017/01/14/exploring_ecp.html)** - This resource builds upon the knowledge you learned above regarding elliptic curves and sets the stage for the topics discussed below. It is an excellent introduction to the topic.
-- **[Pairings or Bilinear Maps by Alin Tomescu (Optional)](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)** - This resource begins with an introduction to the three fundamental properties of bilinear maps. Building on this foundation, it further explores applications such as the Tripartite Diffie-Hellman protocol, BLS signatures, and Identity-Based Encryption (IBE).
+- **[Exploring Elliptic Curve Pairings by Vitalik Buterin (optional)](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)** - This resource builds upon the knowledge you learned above regarding elliptic curves and sets the stage for the topics discussed below. It is an excellent introduction to the topic.
+- **[Pairings or Bilinear Maps by Alin Tomescu](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)** - This resource begins with an introduction to the three fundamental properties of bilinear maps. Building on this foundation, it further explores applications such as the Tripartite Diffie-Hellman protocol, BLS signatures, and Identity-Based Encryption (IBE).
 
 Make sure you read these two articles in full before proceeding.
 
@@ -112,7 +112,7 @@ Read this article:
 
 ### Optional Reading
 
-- [Polynomials](https://vitalik.ca/general/2021/01/26/snarks.html#polynomials) section of Vitalik's article on zk-SNARKs.
+- [Polynomials](https://vitalik.eth.limo/general/2021/01/26/snarks.html#polynomials) section of Vitalik's article on zk-SNARKs.
 - [KZG in Practice: Polynomial Commitment Schemes and Their Usage in Scaling Ethereum](https://scroll.io/blog/kzg)
 
 KZG Polynomial Commitments is another technology that relies on pairing-based cryptography. The protocol is built upon pairing-friendly elliptic curves and bilinear properties. With this protocol, both the proof and commitment size is constant, no matter the degree of the polynomial being used.
@@ -131,7 +131,7 @@ The intuition of trusted setup is that it is a process to generate a bunch of po
 
 ### Optional Reading
 
-- [How do trusted setups work? by Vitalik Buterin](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
+- [How do trusted setups work? by Vitalik Buterin](https://vitalik.eth.limo/general/2022/03/14/trustedsetup.html)
 - [On-Chain Trusted Setup Ceremony by a16zcrypto](https://a16zcrypto.com/posts/article/on-chain-trusted-setup-ceremony/)
 - [The KZG Ceremony - or How I Learnt to Stop Worrying and Love Trusted Setups by Carl Beekhuizen [27:27]](https://www.youtube.com/watch?v=dTBy661ubgg)
 - [Trusted Setup by 0xParc [48:42]](https://learn.0xparc.org/materials/circom/learning-group-1/trusted-setup/)

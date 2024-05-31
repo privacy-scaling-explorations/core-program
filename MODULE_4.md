@@ -62,7 +62,7 @@ PLONK has fast become one of the favourite proof systems because of its "univers
 
 Here are a couple resources to understand how PLONK works:
 
-- [Understanding PLONK by Vitalik Buterin](https://vitalik.ca/general/2019/09/22/plonk.html)
+- [Understanding PLONK by Vitalik Buterin](https://vitalik.eth.limo/general/2019/09/22/plonk.html)
 - [How does PLONK work? by David Wong](https://cryptologie.net/article/529/how-does-plonk-work-part-1-whats-plonk/)
 - [How PLONK Works: Part 1 by CoinGeek](https://coingeek.com/how-plonk-works-part-1/)
 - [How PLONK Works: Part 2 by CoinGeek](https://coingeek.com/how-plonk-works-part-2/)

@@ -1,8 +1,10 @@
-# ZK Contribution Program
+# Core Program
 
-This is the curriculum written for the ZK Summer Contribution Program hosted by the Privacy and Scaling Explorations team. Currently, this content is in its first iteration.
+> Building the Next Wave of ZK Open-Source Contributors
 
-The goal of this curriculum is to help a regular programmer with limited ZK or cryptographic knowledge get up to speed on the fundamentals of zero knowledge proofs.
+This is the curriculum written for the Core Program (formerly known as the Contribution Program) hosted by the Privacy and Scaling Explorations team. The purpose of the program is to teach the basics of programmable cryptography (ZK, FHE, MPC, etc.) and grow the future pool of engineers and researchers contributing to open-source software in the field.
+
+The target of this curriculum is to help a regular programmer with limited ZK or cryptographic knowledge get up to speed on the fundamentals of programmable cryptography and be ready to contribute to open-source community.
 
 ## Contribution
 
