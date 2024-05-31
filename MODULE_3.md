@@ -86,7 +86,7 @@ For those who desire a deeper dive into bilinear maps and pairings, check out th
 
 BLS (Boneh-Lynn-Shacham) signatures are a type of cryptographic signature scheme that allows for efficient aggregation of individual signatures into a single signature. It also makes use of pairing-based cryptography.
 
-The intuition of BLS is that it is an aggregation signature. The image below shows the public key and signature are aggregated. The advantage is all the signature can be verified at once. That's why it is used in consensus protocol.
+The intuition of BLS is that it is an aggregation signature. The image below shows how the public key and signature are aggregated. The advantage is that all signatures can be verified at once. That's why it is commonly used in consensus protocols.
 ![BLS](./assets/bls-signatures.jpeg)
 
 ### Optional Reading
