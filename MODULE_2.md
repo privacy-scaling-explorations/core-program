@@ -99,13 +99,12 @@ Cryptographic commitments are essential in cryptography and blockchain technolog
 
 It helps achieve secure and efficient verification of transactions in blockchain protocols. In such contexts, sensitive information, such as transaction details or user identities, is hidden while revealing others for the verifier to authenticate the transactions.
 
-You can abstract the concept of commitment to commit and open (reveal). This makes it easier to understand the big picture without looking into details.
+You can break down the concept of commitment into two parts: commit and open (reveal).
 
 ![commitment scheme](./assets/commitment.png)
 [Source](https://zecrey.medium.com/commmitment-schemes-in-zecrey-e6c446e2da97)
 
-For example, there are commit phase
-and reveal phase. You encrypt secret and and reveal it later.
+There is always a commit phase and a reveal phase, in other words you first encrypt a secret and then reveal it later.
 
 ### Pedersen Commitments (Optional)
 Pedersen Commitments are a type of cryptographic primitive that allows you to commit to a certain value while keeping it hidden, with the ability to disclose the committed value later. They're often used to achieve privacy-preserving properties in cryptographic protocols. For more on Pedersen Commitments, review these materials:
