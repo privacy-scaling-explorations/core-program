@@ -1,35 +1,43 @@
-`# Hacker Principle
-you're code don't have to be pretty or have many function but need to be presentable and runnable
+# The Hacker Principle
 
-# Project Idea
+Your code doesn't have to be pretty or have many functions, but should be presentable and runnable.
 
-1. toy tornado cash
-a mixer
-reference below starter code and instruction
-https://securitylab.github.io/cs251-fall21/
-https://securitylab.github.io/cs251-fall21/hw/proj4.pdf
-https://securitylab.github.io/cs251-fall21/lectures/lecture13.pdf
-https://learn.0xparc.org/materials/circom/learning-group-1/breaking-down-tornado
+# Project Ideas
 
-2. zk calculator
-prove your calculation is correct, 
-you may want to reference this: https://github.com/jtriley-eth/zk-calculator
+The following are some project ideas to get you started.
 
-3. battleship
-read https://github.com/darkforest-eth/circuits and understand how it work and make your battleship
+## 1. Token Mixer
 
-4. very simple rollup
-can be even simpler than this https://github.com/rollupnc/RollupNC 
-https://securitylab.github.io/cs251-fall21/lectures/lecture17.pdf
+Reference the following starter code and instructions:
+- https://securitylab.github.io/cs251-fall21/
+- https://securitylab.github.io/cs251-fall21/hw/proj4.pdf
+- https://securitylab.github.io/cs251-fall21/lectures/lecture13.pdf
+- https://learn.0xparc.org/materials/circom/learning-group-1/breaking-down-tornado
 
-5. solve below puzzle and present to us
-https://zkhack.dev/puzzles/
+## 2. ZK Calculator
 
-6. *OR YOUR OWN PROJECT*
+Prove your calculation is correct, you may want to reference this: https://github.com/jtriley-eth/zk-calculator
+
+## 3. ZK Battleship
+
+Read the following, understand how it works, and make your own ZK battleship game: https://github.com/darkforest-eth/circuits
+
+## 4. Very Simple Rollup
+
+This is a good example, but yours can be even simpler: https://github.com/rollupnc/RollupNC 
+
+Reference this PDF: https://securitylab.github.io/cs251-fall21/lectures/lecture17.pdf
+
+## 5. Solve Some ZK Puzzles
+
+Some these problems and present to us how you did it: https://zkhack.dev/puzzles/
+
+## 6. *OR YOUR OWN PROJECT*
 !!!!!! UNVEIL YOUR POWER ANON !!!!!
 
-# Toolkit to Use
-https://github.com/privacy-scaling-explorations/zkp-app-boilerplate
-https://battlezips.gitbook.io/battlezips/development/circom-tester
-https://battlezips.gitbook.io/battlezips/development/hardhat-circom
-https://battlezips.gitbook.io/battlezips/development/shield`
+# Helpful Toolkits to Use
+
+- https://github.com/privacy-scaling-explorations/zkp-app-boilerplate
+- https://battlezips.gitbook.io/battlezips/development/circom-tester
+- https://battlezips.gitbook.io/battlezips/development/hardhat-circom
+- https://battlezips.gitbook.io/battlezips/development/shield`
