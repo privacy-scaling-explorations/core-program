@@ -8,9 +8,9 @@ Let’s get started!
 
 ## Tips to Learn Zero Knowledge
 
-One really useful mental model to learn zero knowledge is to blackbox the concepts so that you don't get intimidated by the complexity of the topic. This doesn't mean you ignore the details, but rather, you focus on understanding the high-level concepts first and then dive into the details.
+One really useful mental model to learn zero knowledge is to blackbox the concepts so that you don't get intimidated by the complexity of the topic. This doesn't mean you ignore the details, but rather, you focus on understanding the high-level concepts first and then dive into the details later.
 
-When you study the topic, read only required reading the first time. Skip the optional reading unless you are really curious of the details. This will help you to understand the topic without getting overwhelmed by the details.
+When you study the topic for the first time, only read the required reading. Skip the optional reading unless you are really curious of the details. This will help you to understand the topic without getting overwhelmed by the details.
 
 ## A Primer for Zero Knowledge Proofs
 
