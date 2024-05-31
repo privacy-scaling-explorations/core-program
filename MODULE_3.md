@@ -127,7 +127,7 @@ Scroll's zk-rollup implementation makes use of this commitment scheme to commit 
 
 The concept of a trusted setup is an important part of the KZG Polynomial commitment scheme, and indeed part of the wider culture of Ethereum. Here are a few resources to learn more about trusted setups.
 
-The intuition of trusted setup is that it is a process to generate a bunch of point on the elliptic curve, the prover will input these points to the polynomial commitment. Therefore the output is a point on the curve as well. Especially the generation of these points requires many people join and discard the secret value. That's why it is called trusted.
+The intuition of a trusted setup is that it is a process to generate a bunch of points on the elliptic curve, and the prover will input these points to the polynomial commitment. Therefore the output is a point on the curve as well. Specifically, the generation of these points require many people join and discard the secret value (which they used to create the point). It should not be possible to generate the points without this. That's why it is called a trusted setup.
 
 ### Optional Reading
 
