@@ -47,7 +47,7 @@ Two common proof systems you should know about are Groth16 and PLONK. They are s
 
 The efficiency of Groth16 is very hard to beat, and as such it has become a de-facto standard in many blockchain technologies that require an efficient proof system. However, the requirement of a circuit-specific trusted setup is a significant downside for some use-cases.
 
-We may skip the detail of Groth16 but to keep in mind that the advantage is Groth 16 has small proof size. The disadvantage is that it requires a circuit specific trusted setup.
+We may skip the details of Groth16 but just keep in mind that the advantage is its small proof size. The disadvantage is that it requires a circuit specific trusted setup. These days, we have much more advanced proof systems that improve upon these trade-offs. Nevertheless, Groth16 continues to be used in a lot of existing projects.
 
 #### Optional Reading
 
