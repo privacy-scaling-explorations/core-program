@@ -59,7 +59,7 @@ For more on EdDSA, check out the following links:
 ## Pairing-Based Cryptography (PBC)
 
 Many of the following topics will depend upon what is called pairing-based cryptography. 
-You can imagine pairing is the multiplication of elliptic curve. The original elliptic curve is additive homomorphic but not multiplicative homomorphic. Pairing is a way to mimic it.
+You can imagine pairing as the multiplication of elliptic curves. The original elliptic curve operation is homomorphically additive but not homomorphically multiplicative. Pairing is a way to mimic this "multiplication".
 
 This is largely used in zk, especially during verification stage. 
 
