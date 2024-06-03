@@ -2,19 +2,33 @@
 
 This is the pre-requisite module to be completed *before* the program begins. Everything in this module was designed to be easy to learn without much need for external mentorship support.
 
-Should you find that you need additional support, don't hesitate to reach out!
+Should you find that you need additional support, don't hesitate to reach out! See the section below on "How to ask questions, where to find help".
 
 ## Course Info
 
-TODO - About This Course
+This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs).
+
+Since its inception, the scope has expanded to include other concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsualted under a broader umbrella called Programmable Cryptography (ProgCrypto).
+
+Due to this context, it's not only enough to know the fundamentals of ProgCrypto, but it's necessary to understand the culture of open-source development, public goods, and how to use Git and Github effectively.
 
 ### Open-Source Culture, Git, and Github
 
-TODO - explain open-source culture, include video from last year
+A good summary of the topics of open-source culture, Git, and Github can be found in the following presentation by Adrian Li (the original author of this curriculum).
+
+🎥 **The Way of Open Source (video) [18:28]**: [Watch here](https://drive.google.com/file/d/1T7ACbYl4joqrJg6dRxHaIYNNhWrftamB/view?usp=drive_link)
+
+📊 **The Way of Open Source (slides)**: [View here](https://docs.google.com/presentation/d/1wqyn6FnyINulTSEIWwZaVYak3ONbjTUi9shBOhAZkd8/edit?usp=sharing)
+
+Take sometime to watch the video and afterwards review the following links as further reference:
+
+- [**Git Cheat Sheet (by Github)**](https://education.github.com/git-cheat-sheet-education.pdf) - A concise list of common commands provided by Github Education.
+- [**Comparing Git Workflow (by Atlassian)**](https://www.atlassian.com/git/tutorials/comparing-workflows) - This article by Atlassian compares popular workflows when using Git. For this course, a basic Feature Branching workflow should be sufficient.
+
 
 ### How to ask questions, where to find help
 
-TODO - give some basic dos and don'ts, include links to discord/telegram
+TODO - give some basic dos and donts, include links to discord/telegram
 
 ### How to submit your assignments (PR workflow)
 
