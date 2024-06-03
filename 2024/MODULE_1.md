@@ -8,36 +8,199 @@
 ### Write a circuit to prove set membership
 
 ## Study
+
 ### Symmetric vs Asymmetric Encryption (AES, RSA)
 
-TODO - Copy content from old Module 2
+Encryption is a technique used to encode data, making it readable only to those who possess the correct decryption key. There are two main types of encryption - symmetric and asymmetric, each serving different purposes and with their own strengths and weaknesses.
+
+**Symmetric Encryption** - Also known as single-key encryption, this method involves using the same key for both encryption and decryption. The most widely used symmetric encryption algorithm is Advanced Encryption Standard (AES).
+
+**Asymmetric Encryption** - Also known as public-key encryption, this method uses a pair of keys: one for encryption and another for decryption. The RSA algorithm is one of the best known public-key algorithms.
+
+The key difference between the two is the number of keys used: symmetric encryption uses one key for both encrypting and decrypting, while asymmetric encryption uses a different key for each (one public, one private). For a deeper understanding of symmetric and asymmetric encryption, please explore these resources:
+- [Symmetric vs. Asymmetric Encryption – What are differences?](https://www.ssl2buy.com/wiki/symmetric-vs-asymmetric-encryption-what-are-differences)
+- [AES Explained (Advanced Encryption Standard) - Computerphile [14:13]](https://www.youtube.com/watch?v=O4xNJsjtN6E)
+- [Prime Numbers & RSA Encryption Algorithm - Computerphile [15:06]](https://www.youtube.com/watch?v=JD72Ry60eP4)
+- [What Is AES Encryption and How Does It Work?](https://www.simplilearn.com/tutorials/cryptography-tutorial/aes-encryption)
+- [What is RSA encryption and how does it work?](https://www.comparitech.com/blog/information-security/rsa-encryption/)
+
+
+:::info
+**🤔 Consider the following:**
+1. What is the primary difference between symmetric and asymmetric encryption?
+2. Can you briefly explain how AES (Advanced Encryption Standard) works?
+3. What makes RSA a popular choice for public-key encryption? 
+:::
 
 ### Hash Functions, Merkle Trees
 
-TODO - Copy content from old Module 2
+#### Hash Functions
+
+A hash function takes an input and returns a fixed-size string of bytes. **SHA-256** and **Poseidon** are popular cryptographic hash functions in our context, with Poseidon specifically designed for arithmetic-friendly operations, benefiting certain applications in blockchains.
+
+The primary characteristics of a good hash function are [preimage resistance](https://en.wikipedia.org/wiki/Preimage_attack), second preimage resistance, and [collision resistance](https://en.wikipedia.org/wiki/Collision_resistance), ensuring data security and integrity. In blockchain technology, hash functions create an unalterable, unique representation of each block's content, contributing to the immutability and transparency of the system.
+
+Explore these resources to further your understanding:
+- [What Is SHA-256 Algorithm & How It Works](https://www.ssldragon.com/blog/sha-256-algorithm/)
+- [How is SHA-256 used in blockchain, and why?](https://www.educative.io/answers/how-is-sha-256-used-in-blockchain-and-why)
+- [Poseidon: A new hash function for zero-knowledge proof systems](https://eprint.iacr.org/2019/458.pdf)
+- [USENIX Security '21 - Poseidon: A New Hash Function for Zero-Knowledge Proof Systems [10:45]](https://www.youtube.com/watch?v=hUx3WpDV_l0)
+    - This video is quite technical, but the first few minutes provide a good explanation for the motivation behind the Poseidon hash function.
+
+:::info
+**🤔 Consider the following:**
+1. What is a hash function and what are its primary uses in cryptography?
+2. How does the SHA-256 hashing algorithm function, in simple terms?
+3. What is the Poseidon hash function and why is it particularly useful in ZKPs?
+:::
+
+#### Merkle Trees
+
+A Merkle tree is a core component of blockchain and cryptography. It's a binary tree filled with cryptographic hashes. This structure enables efficient and secure verification of the contents of large data structures. To understand more about Merkle trees, read the following:
+- [How Merkle Trees Enable the Decentralized Web! [10:05]](https://www.youtube.com/watch?v=3giNelTfeAk)
+- [Merkle Trees and Merkle Roots Explained](https://academy.binance.com/en/articles/merkle-trees-and-merkle-roots-explained)
+- [Visualizing Efficient Merkle Trees for Zero-Knowledge Proofs](https://kndrck.co/posts/efficient-merkletrees-zk-proofs/)
+- [The Ultimate Merkle Tree Guide in Solidity](https://soliditydeveloper.com/merkle-tree)
+
+
+:::info
+**🤔 Consider the following:**
+1. Can you describe the structure of a Merkle tree?
+2. How are Merkle trees used within the blockchain context?
+3. Why are Merkle trees useful for efficient and secure verification of large data structures?
+:::
 
 ### Digital Signatures (Schnorr)
 
-TODO - Copy content from old Module 2 and 3
+TODO - add some more detail about Schnorr signatures specifically
+
+Digital signatures ensure the integrity and authenticity of digital messages or documents. By providing a means to verify the origin and confirm that the content has not been altered, digital signatures play a pivotal role in maintaining trust in digital communications.
+
+In PKC, anyone can encrypt their message with the receiver's public key, and only the receiver can decrypt the message with their private key. In digital signatures, on the other hand, if a signer generates a signature for a message using their private key, anyone can validate it using the signer's public key. Therefore, the message of the signature is made public, which distinguishes it from cryptographic commitments.
+
+Start your exploration of digital signatures with this intuitive video:
+- [What are Digital Signatures? - Computerphile [10:16]](https://www.youtube.com/watch?v=s22eJ1eVLTU)
+
+**Schnorr Signature**: Schnorr signatures are a digital signature scheme known for their simplicity and efficiency.
+- [Schnorr Digital Signature (by GeeksForGeeks)](https://www.geeksforgeeks.org/schnorr-digital-signature/)
+- [Schnorr Digital Signature [4:58]](https://www.youtube.com/watch?v=mV9hXEFUB6A)
+
+**Exploring DSA**: Get a deep dive into the Digital Signature Algorithm (DSA) and its significance in bolstering internet security. Through the listed resources, understand the mechanics of DSA and its use cases.
+- [Digital Signature Algorithm (DSA) in Cryptography](https://www.simplilearn.com/tutorials/cryptography-tutorial/digital-signature-algorithm)
+- [Digital Signature Algorithm (DSA) - Cryptography [5:46]](https://www.youtube.com/watch?v=iS1nK4G6EtA)
+- [Digital Signature Algorithm (DSA) explained with example [24:32]](https://www.youtube.com/watch?v=MtT3NBfpV5Q)
+
+:::info
+**🤔 Consider the following:**
+1. Can you describe what digital signatures are and why they are essential in digital communications?
+2. Explain the workings of the Digital Signature Algorithm (DSA).
+:::
 
 ### DLP-based Public-Key Cryptography (DLP, DH, Elgamal)
 
-TODO - Copy content from old Module 2
+While RSA encryption is based on the hardness of factoring problem, there is another public key cryptography system based on hardness of Discrete Logarithm Problem (DLP).
+
+1. **Discrete Log Problem (DLP):** This is a cornerstone problem in public-key cryptography and underlies many key exchange and encryption algorithms. Understanding DLP provides a foundation for the remaining topics.
+    - [The Discrete Logarithm Problem - Khan Academy [1:55]](https://youtu.be/SL7J8hPKEWY)
+    - [Public key cryptography using discrete logarithms](https://www.di-mgt.com.au/public-key-crypto-discrete-logs-0.html)
+
+2. **Diffie-Hellman Key Exchange:** This is one of the earliest practical implementations of key exchange protocols based on the Discrete Log Problem. It's critical to understand how secure communication can be established over insecure channels.
+
+    This protocol is significant as it enables secure communication over insecure channels by allowing two parties to generate a shared secret key, which can then be used for encryption and decryption of messages
+    - [Secret Key Exchange (Diffie-Hellman) - Computerphile [8:39]](https://www.youtube.com/watch?v=NmM9HA2MQGI)
+    - [Diffie Hellman -the Mathematics bit- Computerphile [7:04]](https://youtu.be/Yjrfm_oRO0w)
+    - [Implementation of Diffie-Hellman Algorithm
+](https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/)
+
+3. **ElGamal Encryption:** This is a public-key encryption method that utilizes the principles of DLP. This will allow you to see a practical application of these abstract concepts in a real-world encryption scheme.
+    - [Intro to the ElGamal Cryptosystem [8:20]](https://www.youtube.com/watch?v=oQqr8d5s3Uk)
+    - [The ElGamal Algorithm: a simple example [6:38]](https://www.youtube.com/watch?v=4xVCrTb_1II)
+    - [ElGamal Encryption Algorithm](https://www.geeksforgeeks.org/elgamal-encryption-algorithm/)
+
+:::info
+**🤔 Consider the following:**
+1. What is the Discrete Logarithm Problem (DLP)?
+2. How does the Diffie-Hellman protocol work?
+3. What is the main idea behind ElGamal encryption?
+4. Can you name a drawback of using DLP-based systems?
+:::
 
 ### Cryptographic Commitments
 
-TODO - Copy content from old Module 2
+Cryptographic commitments are essential in cryptography and blockchain technology as they allow for selective hiding and revealing of information. This feature ensures data privacy while still enabling verification processes.
+
+It helps achieve secure and efficient verification of transactions in blockchain protocols. In such contexts, sensitive information, such as transaction details or user identities, is hidden while revealing others for the verifier to authenticate the transactions.
+
+You can break down the concept of commitment into two parts: commit and open (reveal).
+
+![commitment scheme](./assets/commitment.png)
+[Source](https://zecrey.medium.com/commmitment-schemes-in-zecrey-e6c446e2da97)
+
+There is always a commit phase and a reveal phase, in other words you first encrypt a secret and then reveal it later.
+
+#### Pedersen Commitments (Optional)
+Pedersen Commitments are a type of cryptographic primitive that allows you to commit to a certain value while keeping it hidden, with the ability to disclose the committed value later. They're often used to achieve privacy-preserving properties in cryptographic protocols. For more on Pedersen Commitments, review these materials:
+
+- [Pedersen Commitments](https://asecuritysite.com/encryption/ped)
+- [What is a Pedersen Commitment?](https://crypto.stackexchange.com/questions/64437/what-is-a-pedersen-commitment)
+
+As a final touch on this section, [this video [10:32]](https://www.youtube.com/watch?v=IkNZWJFcfcU) provides a brief yet comprehensive summary of the fundamental concepts discussed in this section.
+
+:::info
+**🤔 Consider the following:**
+1. What is the main purpose of Cryptographic Commitments?
+2. What type of information does a Polynomial Commitment hide and reveal?
+3. How do Pedersen Commitments contribute to privacy in cryptography?
+4. Why are Cryptographic Commitments important in blockchain technology?
+:::
 
 ### Intro to Elliptic Curve Cryptography
 
-TODO - Copy content from old Module 3
+Elliptic curve cryptography builds upon traditional cryptographic principles by applying them to the mathematical structure of elliptic curves.
+
+For example, there exists an **Elliptic Curve Discrete Log Problem (ECDLP)**. By using elliptic curves, it has certain benefits over the regular Discrete Log Problem (DLP). These links are a good place to start:
+
+- [Elliptic Curves - Computerphile [8:41]](https://www.youtube.com/watch?v=NF1pwjL9-DE)
+- [A (relatively easy to understand) primer on elliptic curve cryptography](https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/)
+
+**Elliptic Curve Digital Signature Algorithm (ECDSA)** extends the traditional Digital Signature Algorithm (DSA) by incorporating elliptic curves as well, enabling stronger security with shorter key lengths. This makes the algorithm more efficient and suitable for constrained environments. ECDSA is widely used in various secure communication protocols, including SSL/TLS.
+
+The following StackExchange answer goes over the differences between some of the most popular digital signature protocols. It also leads into our next topic, which is another type of digital signature called the Edwards-curve Digital Signature Algorithm (EdDSA).
+
+- [What is the difference between the RSA, DSA, and ECDSA keys that ssh uses?](https://askubuntu.com/a/1000928/733503)
 
 ### BLS Signatures
 
-TODO - Copy content from old Module 3
 TODO - keep this simple and black-boxed
+
+BLS (Boneh-Lynn-Shacham) signatures are a type of cryptographic signature scheme that allows for efficient aggregation of individual signatures into a single signature. It also makes use of pairing-based cryptography.
+
+The intuition of BLS is that it is an aggregation signature. The image below shows how the public key and signature are aggregated. The advantage is that all signatures can be verified at once. That's why it is commonly used in consensus protocols.
+![BLS](./assets/bls-signatures.jpeg)
 
 ### Pairing-Based Cryptography
 
-TODO - Copy content from old Module 3
 TODO - keep this simple and black-boxed
+
+Pairing-based cryptography underly many of the following topics. So it is important to know what it is, even if you might not need to know the specifics.
+
+You can imagine pairing as the multiplication of elliptic curves. The original elliptic curve operation is homomorphically additive but not homomorphically multiplicative. Pairing is a way to mimic this "multiplication".
+
+This is largely used in ZKPs, especially during the verification stage.
+
+![Pairing](./assets/elliptic-curve-pairings.jpeg)
+[Source](https://www.inevitableeth.com/home/concepts/elliptic-curve-pairings)
+
+If you would like to know more about it, you can check out the following resources:
+
+- **[Exploring Elliptic Curve Pairings by Vitalik Buterin (optional)](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)** - This resource builds upon the knowledge you learned above regarding elliptic curves and sets the stage for the topics discussed below. It is an excellent introduction to the topic.
+- **[Pairings or Bilinear Maps by Alin Tomescu](https://alinush.github.io/2022/12/31/pairings-or-bilinear-maps.html)** - This resource begins with an introduction to the three fundamental properties of bilinear maps. Building on this foundation, it further explores applications such as the Tripartite Diffie-Hellman protocol, BLS signatures, and Identity-Based Encryption (IBE).
+
+# 💪 Exercises
+
+1. **Symmetric vs. Asymmetric Encryption**: What are the key differences between symmetric and asymmetric encryption? Provide a practical use case for each.
+2. **Public-Key Cryptography and Key Exchange Protocols**: How can the Diffie-Hellman protocol enhance security in a messaging application?
+3. **Hash Functions**: What features make SHA-256 and Poseidon good hash functions for ensuring data integrity? Mention one unique advantage of Poseidon.
+4. **Merkle Trees**: Explain how Merkle trees can help verify data in a large database efficiently.
+5. **Cryptographic Commitments**: How can Pedersen Commitments be used in a blockchain protocol to maintain transaction privacy?
+6. **Digital Signatures**: How can you verify the authenticity of a digitally signed document?
