@@ -2,13 +2,13 @@
 
 This is the pre-requisite module to be completed *before* the program begins. Everything in this module was designed to be easy to learn without much need for external mentorship support. However, if you find that you need additional support, don't hesitate to reach out!
 
-**Make sure to read this module in its entirety!**
+**Complete this module in its entirety before the program begins! ⚠️📚⚠️**
 
 ## Getting Help
 
-It's important to ask questions early and often. Many of the topics discussed are complex, and reaching out to others for different perspectives can be very helpful.
+It's important to ask questions early and often. Many of the topics discussed are complex, and reaching out to others for different perspectives can be very helpful. The following section details how and where to ask questions.
 
-### Asking Questions
+### How to Ask Questions
 
 When asking questions, it is important to consider several things before sending them off:
 
@@ -19,19 +19,17 @@ When asking questions, it is important to consider several things before sending
 - **Specify Your Environment**: 💻 Mention your development environment, tools, and versions, if applicable.
 - **Be Polite and Patient**: 🙏 Remember to be courteous and patient while waiting for a response.
 
-### Useful Links
+### Where to Ask Questions
 
 - [Core Program Discord](https://discord.gg/Xd6wdU2QJg) - This is a good place to start as other students will have likely encountered similar questions and be able to help out.
 - [PSE Discord](https://discord.com/invite/sF5CT5rzrR) - This is the Discord chat for the entire PSE team. It consists of experts in the space doing active research and can answer some of your most technical questions. We recommend posting in the "#❓ask-any-question" channel.
-- [Core Program Telegram](#) - Some of you might prefer Telegram. While this might be less focused than Discord, it's still worth posting your questions here if you are looking for more help.
+- [Core Program Telegram](https://t.me/+h6P9q5Ia0vdlMDYx) - Some of you might prefer Telegram. While this might be less focused than Discord, it's still worth posting your questions here if you are looking for more help.
 
 ## Course Info
 
-This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs).
+This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs). The scope has since expanded to include concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsualted under a broader umbrella called Programmable Cryptography (ProgCrypto).
 
-The scope has since expanded to include concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsualted under a broader umbrella called Programmable Cryptography (ProgCrypto).
-
-Due to this context, it's not only enough to know the fundamentals of ProgCrypto, but it's necessary to understand the culture of open-source development, public goods, and how to use Git and Github effectively.
+It's not only enough to know the fundamentals of ProgCrypto, but it's necessary to understand the culture of open-source development, public goods, and how to use Git and Github effectively.
 
 ### Open-Source Culture, Git, and Github
 
@@ -48,20 +46,20 @@ Take sometime to watch the video and afterwards review the following links as fu
 
 ## Prerequisite Knowledge
 
-One really useful mental model to learn zero knowledge is to blackbox the concepts so that you don't get intimidated by the complexity of the topic. This doesn't mean ignoring the details but rather focusing on understanding the high-level concepts first and diving into the details later.
+A useful approach to learning complex topics is to "blackbox" the concepts. This means focusing on high-level ideas first and saving the detailed exploration for later. This way, you won't get intimidated by the complexity.
 
-When you study the topic for the first time, only read the required reading. Skip the optional reading unless you are really curious of the details. This will help you to understand the topic without getting overwhelmed by the details.
+When studying a topic for the first time, only read the required materials. Skip the optional readings unless you're particularly curious about the details. This strategy will help you grasp the main concepts without feeling overwhelmed.
 
 ### A Primer for Zero Knowledge Proofs
 
-Before we delve into the core content of the module, consider acquainting yourself with some high-level concepts of Zero-Knowledge Proofs. The following introductory articles will help you build a strong foundational understanding:
+Before we delve into the core content of the module, consider acquainting yourself with some high-level concepts of Zero-Knowledge Proofs. Skim the following introductory articles to build a strong foundational understanding:
 
 - [Zero-knowledge proofs | ethereum.org](https://ethereum.org/en/zero-knowledge-proofs/)
 - [A Primer on Zero-Knowledge Proofs 🔏](https://medium.com/hackernoon/a-primer-on-zero-knowledge-proofs-892e6e277142)
 - [Zero Knowledge Proofs: An illustrated primer [Part 1]](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
 - [Zero Knowledge Proofs: An illustrated primer [Part 2]](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
 
-You **DO NOT** have to read all of these articles, they are simply a starting point. However, throughout this course, we will provide you with a set of reflection questions to check your understanding.
+Throughout this course, we will provide you with a set of reflection questions to check your understanding.
 
 :::info
 **🤔 Consider the following:**
@@ -83,6 +81,7 @@ Engaging with these thought experiments will make abstract concepts more tangibl
 1. Which example did you find most enlightening, and why?
 2. How do these examples demonstrate the principles of zero-knowledge proofs?
 3. Can you think of any potential applications of these concepts in everyday life?
+4. Can you explain these thought experiments to someone non-technical? Try it with a friend or family member!
 :::
 
 ### Use-Cases and Applications
@@ -119,7 +118,7 @@ Building a solid foundation in number theory is essential for understanding the 
 
 Below are topics that you will need to research independently (or with a teammate). This could mean searching these specific terms on Google, YouTube, Wikipedia, or even asking ChatGPT.
 
-Don't forget to reach out to your team and the mentors on Discord when you're stuck!
+Don't forget to reach out for help when you're stuck!
 
 ### Topics to Research
 
@@ -149,7 +148,7 @@ Don't forget to reach out to your team and the mentors on Discord when you're st
 
 ## 💪 Exercises
 
-Here are the exercises for this module. Collaborate with your team to find the answers, and remember to support each other!
+Here are the exercises for this module. Collaborate with others to find the answers, and remember to support each other!
 
 ### Comprehension
 
@@ -180,7 +179,7 @@ Consider the cyclic group $(Z_{12}, +\ mod\ 12)$, commonly referred to as the "a
 
 ### Implementing a Modular Arithmetic Calculator
 
-Your task is to implement a simple modular arithmetic calculator in JavaScript. The calculator should support three operations: addition, subtraction, and multiplication. 
+Your task is to implement a simple modular arithmetic calculator in JavaScript (or similar high-level language of your choice). The calculator should support three operations: addition, subtraction, and multiplication. 
 
 The function `modularCalculator` should take four parameters:
 - A string, `op`, indicating the operation. It will be one of '+', '-', or '*'.
@@ -191,7 +190,7 @@ The function should return the result of performing the indicated operation on `
 
 Remember, the result of subtraction could be negative, and in this case, you should add `mod` to the result to ensure it's positive. 
 
-For addition and multiplication, remember that JavaScript's % operator gives the remainder, not the modulus, but these will be the same for positive numbers.
+For addition and multiplication, remember that JavaScript's `%` operator gives the remainder, not the modulus, but these will be the same for positive numbers.
 
 **Code Template:**
 
