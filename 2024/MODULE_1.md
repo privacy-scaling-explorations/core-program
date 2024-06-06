@@ -1,8 +1,81 @@
 # Module 1 - Cryptographic Basics
 
 ## Practical
+
+In each of our modules, we will have a practical component so that you can get some hands-on experience as soon as possible. In this module, we will first start with some basics about circuit writing with Circom.
+
 ### Getting Started with Circom (syntax + zkrepl)
+
+In order to get used to writing circuits, we will start with [zkREPL](https://zkrepl.dev/), which is an online REPL that allows you to write and compile Circom circuits in the browser (with no setup required). There are many good videos on Circom, such as this one:
+
+- [Circom Workshop 1 by 0xParc [1:31:06]](https://learn.0xparc.org/materials/circom/learning-group-1/circom-1/) - A very good introduction to Circom circuits.
+
+However, we recommend you work through a few of the following example scenarios with zkREPL first. This way you can gain some familiarity with the syntax without having to setup the environment and dig into too much detail. Afterwards, you can review the video and fill in any gaps.
+
+#### Hello World - Addition
+
+This is one of the simplest examples of a ZK circuit. This circuit checks that the `sum` is the addition of two numbers `a` and `b`. Copy-and-paste the following into zkREPL, and compile it in the browser.
+
+```circom
+pragma circom 2.1.6;
+
+template AdditionProof() {
+    // declaration of signals
+    signal input a;
+    signal input b;
+    signal output sum;
+
+    // constraint
+    sum <== a + b;
+}
+
+component main = AdditionProof();
+
+/* INPUT = {
+    "a": 3,
+    "b": 5
+} */
+```
+
+Note that the `a` and `b` are the private inputs.
+
+### Write a circuit to prove multiplication
+
+From there, let's try to write a circuit to prove the multiplication of two numbers!
+
+Once that works, try to make a circuit to prove the multiplication of three numbers.
+
+Make sure to save these circuits and present them at the end of the week.
+
 ### Write a circuit to prove input to hash
+
+Now let's take it to the next level, we will write a circuit to prove the input to a hash. In order to do this, we will use the Poseidon hashing algorithm. You will need to include the following line at the top:
+
+```circom
+include "circomlib/poseidon.circom";
+```
+
+Here's how you'd use the Poseidon hashing function:
+
+```circom
+component hasher = Poseidon(1);
+hasher.inputs[0] <== preimage;
+hashOutput <== hasher.out;
+```
+
+You might want to research what a `component` is in the Circom syntax.
+
+Use this as the input:
+
+```circom
+/* INPUT = {
+    "preimage": "12345",
+    "hash": "4267533774488295900887461483015112262021273608761099826938271132511348470966"
+} */
+```
+
+Save the full answer to be submitted at the end of this module!
+
 ### Write a circuit to prove private key to public key
 ### Write a circuit to prove inclusion in Merkle tree
 ### Write a circuit to prove set membership
