@@ -76,9 +76,61 @@ Use this as the input:
 
 Save the full answer to be submitted at the end of this module!
 
-### Write a circuit to prove private key to public key
+### Write a circuit to add two numbers on an elliptic curve
+
+We don't dive in the details of elliptic curves in this module, but we can still write a simple circuit to add two numbers on an elliptic curve by importing the `babyjub.circom` file and add the points together.
+Link to this code is [here](https://gist.github.com/NOOMA-42/1a9040d49a0a828075971cb50acc4adb)
+
+```circom
+// Code modified from circomlib test
+pragma circom 2.1.6;
+
+include "circomlib/circuits/babyjub.circom";
+
+template AddNumOnEllipticCurve() {
+    signal input x1;
+    signal input y1;
+    signal input x2;
+    signal input y2;
+    // To check xout yout
+    signal input xout;
+    signal input yout;
+    component babyAdd = BabyAdd();
+    babyAdd.x1 <== x1;
+    babyAdd.y1 <== y1;
+    babyAdd.x2 <== x2;
+    babyAdd.y2 <== y2;
+    xout === babyAdd.xout;
+    yout === babyAdd.yout;
+}
+
+component main = AddNumOnEllipticCurve();
+
+/* INPUT = {
+    "x1": "17777552123799933955779906779655732241715742912184938656739573121738514868268",
+    "y1": "2626589144620713026669568689430873010625803728049924121243784502389097019475",
+    "x2": "17777552123799933955779906779655732241715742912184938656739573121738514868268",
+    "y2": "2626589144620713026669568689430873010625803728049924121243784502389097019475",
+    "xout": "6890855772600357754907169075114257697580319025794532037257385534741338397365",
+    "yout": "4338620300185947561074059802482547481416142213883829469920100239455078257889"
+} */
+```
+
 ### Write a circuit to prove inclusion in Merkle tree
-### Write a circuit to prove set membership
+
+TtheBC01 has a good example of a Merkle tree circuit [here](https://github.com/TtheBC01/zkSNARK-playground/blob/main/examples/merkle-tree/tree.circom)
+
+The main component is Poseidon hash. Poseidon hash maps sequences of elements to a fixed-length sequence of elements. You can use it to hash messages of arbitrary length or fixed length (such as in a Merkle tree, where typically two elements are hashed). Here you initialize the Poseidon hash with n = 2
+
+You may also need a Mux. Mux is a component that takes two inputs and outputs one of them based on a selector. In this case, the selector is the index of the element in the Merkle tree.
+```circom
+poseidons[i] = Poseidon(2);
+mux[i] = MultiMux1(2);
+```
+
+### Tips
+
+You can always reference circomlib for examples of how to use existing circuits. You can find the circomlib [here](https://github.com/iden3/circomlib). Writing a simple circuit is not too dififcult, but it can be a bit tricky to get the constraints right and optimize the circuit. circomlib has many examples that you can use as a reference.
 
 ## Study
 
