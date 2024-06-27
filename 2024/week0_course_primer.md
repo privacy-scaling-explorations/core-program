@@ -1,4 +1,4 @@
-# Module 0 - The Course Primer
+# Week 0 - The Course Primer
 
 This is the pre-requisite module to be completed *before* the program begins. Everything in this module was designed to be easy to learn without much need for external mentorship support. However, if you find that you need additional support, don't hesitate to reach out!
 

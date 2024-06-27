@@ -1,4 +1,4 @@
-# Module 1 - Cryptographic Basics
+# Week 1 - Cryptographic Basics
 
 ## Practical
 

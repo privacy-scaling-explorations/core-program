@@ -1,4 +1,6 @@
-# The Hacker Principle
+# Week 3 - Hack and Experiment
+
+TODO - introduce the hacker mentality.
 
 Your code doesn't have to be pretty or have many functions, but should be presentable and runnable.
 
