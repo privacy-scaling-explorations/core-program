@@ -1,8 +1,9 @@
 # Week 3 - Hack and Experiment
 
-TODO - introduce the hacker mentality.
-
-Your code doesn't have to be pretty or have many functions, but should be presentable and runnable.
+1. Your code doesn't have to be pretty or have many functions, but should be presentable and runnable.
+2. Don't reinvent the wheel, use existing libraries and tools.
+3. Don't be afraid to ask for help from mentor, but try to solve the problem yourself first.
+4. Prepare your presentation and be ready to explain your code and how it works.
 
 # Project Ideas
 

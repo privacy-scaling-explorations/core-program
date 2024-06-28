@@ -48,11 +48,10 @@ You can also read [this article in 10 mins](https://medium.com/@ramsesfv/starks-
 
 ### From Computation to ZKPs
 
-When you start to learn ZK proof system, you are really advised to start from PLONK than any other proof system. There're a bunch of amazing articles out there, but instead of jumpping into rebbit hole, you should start from [Vitalik's blog post](https://vitalik.eth.limo/general/2019/09/22/plonk.html) and focus on reading it all.
-With this article you can understand what is widely used plonkish style of circuit arithemization. For this article, you may be unable to understand all the details at once, but you should at least understand what does this diagram mean:
+There's a circuit diagram from [Vitalik's blog post](https://vitalik.eth.limo/general/2019/09/22/plonk.html), you will be asked to read it in week4. For now let's focus only on a digram from the article. It's a circuit below. It's arithematic, so the gate is addition and multiplication. This represent `x^3 + x + 5 = 35` and x is the only "input" here. It should be `3` to satisfy the gate. For the first gate, it should be `9` if you have to label the value for it. because `3 * 3 = 9`. All the value you label on the gate between are "witness". The answer and operation of each gate actually constrain the value of the witness, so this circuit is a constraint system. How to prove the circuit is correctly filled? You can either prove the gate correctly compute (gate constraint) or prove the neighbor gate (permutaiton constraint) is consistent. That's the main part of the proof. While in the formal proof system, all of your computation should be in polynomial.
 ![Vitalik's circuit](./assets/vitalik-circuit.png)
 
-After finishing the previous article you might sense that the process of converting a program to a proof is:
+The process of converting a program to a proof is:
 
 1. convert program to a bunch of constraints, and your input have to satisfy these constraints. like `x * x = 16` then `x = 4` if x is an positive integer.
 2. With this constraint and input number, you try to prove the constraint really satisfy. In the case of PLONK, the main part of your proof are every gate is correctly compute and every neighbor gate is consistent. You just compute it in polynomial. That's why it seems complicated.
@@ -76,3 +75,9 @@ Groth16 is one of the famous zkSNARKs. Just remember that its biggest advantage 
 STARKs are a type of zero-knowledge proof system that is post-quantum secure. It usually involves larger proof size and faster proof size. There are two articles written by Vitalik that explain STARKs in detail. You can read them here:
 1. https://vitalik.eth.limo/general/2017/11/09/starks_part_1.html
 2. https://vitalik.eth.limo/general/2017/11/22/starks_part_2.html
+
+# 💪 Exercises
+
+1. What is a proof system?
+2. What is input, witness, circuit, and proof? 
+3. How does program convert to proof?
