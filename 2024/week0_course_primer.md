@@ -25,6 +25,10 @@ When asking questions, it is important to consider several things before sending
 - [PSE Discord](https://discord.com/invite/sF5CT5rzrR) - This is the Discord chat for the entire PSE team. It consists of experts in the space doing active research and can answer some of your most technical questions. We recommend posting in the "#❓ask-any-question" channel.
 - [Core Program Telegram](https://t.me/+h6P9q5Ia0vdlMDYx) - Some of you might prefer Telegram. While this might be less focused than Discord, it's still worth posting your questions here if you are looking for more help.
 
+### How to Work with GitHub PR Workflow?
+
+It's important to understand how to work with GitHub PR workflow in core program. Watch this [3 minutes video](https://youtu.be/jRLGobWwA3Y?si=6uZrn8mrd30QnUtW) to understand how to work with GitHub PR workflow.
+
 ## Course Info
 
 This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs). The scope has since expanded to include concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsualted under a broader umbrella called Programmable Cryptography (ProgCrypto).

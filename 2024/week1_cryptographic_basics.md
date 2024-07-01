@@ -197,8 +197,6 @@ A Merkle tree is a core component of blockchain and cryptography. It's a binary 
 
 ### Digital Signatures (Schnorr)
 
-TODO - add some more detail about Schnorr signatures specifically
-
 Digital signatures ensure the integrity and authenticity of digital messages or documents. By providing a means to verify the origin and confirm that the content has not been altered, digital signatures play a pivotal role in maintaining trust in digital communications.
 
 In PKC, anyone can encrypt their message with the receiver's public key, and only the receiver can decrypt the message with their private key. In digital signatures, on the other hand, if a signer generates a signature for a message using their private key, anyone can validate it using the signer's public key. Therefore, the message of the signature is made public, which distinguishes it from cryptographic commitments.
@@ -296,16 +294,13 @@ The following StackExchange answer goes over the differences between some of the
 
 ### BLS Signatures
 
-TODO - keep this simple and black-boxed
-
 BLS (Boneh-Lynn-Shacham) signatures are a type of cryptographic signature scheme that allows for efficient aggregation of individual signatures into a single signature. It also makes use of pairing-based cryptography.
 
 The intuition of BLS is that it is an aggregation signature. The image below shows how the public key and signature are aggregated. The advantage is that all signatures can be verified at once. That's why it is commonly used in consensus protocols.
 ![BLS](./assets/bls-signatures.jpeg)
+[Source](https://www.inevitableeth.com/en/home/concepts/bls-signatures)
 
 ### Pairing-Based Cryptography
-
-TODO - keep this simple and black-boxed
 
 Pairing-based cryptography underly many of the following topics. So it is important to know what it is, even if you might not need to know the specifics.
 
