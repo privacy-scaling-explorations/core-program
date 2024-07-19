@@ -6,6 +6,10 @@
 
 There are [excellent resources available like ZKU course](https://zku.gnomio.com/) to learn Circom. [The week 2 of ZKU course](https://zku.gnomio.com/mod/assign/view.php?id=119) introduces the merkle tree and token mixer. Finish week2 part1 - Hashes and Merkle Tree and part2 - Tornado Cash. You may find the curated material useful to understand the concepts better. Semaphore is optional but recommended.
 
+### Reference Material (optional)
+
+1. https://circom.erhant.me/
+
 ## Study
 
 ### KZG Polynomial Commitments (keep this simple and black-boxed)
