@@ -111,6 +111,7 @@ For more content (especially for those who prefer videos), check out the followi
     - [ZK Whiteboard Sessions - Module One: What is a SNARK? by Dan Boneh [42:08]](https://youtu.be/h-94UhJLeck)
     - [Detailed Explanation of Zero-Knowledge Proofs](https://youtu.be/9je336QIqAQ?t=650)
 - [Thinking in Zero Knowledge](https://mirror.xyz/0x3FD6f213ae1B8a7B6bd8f14BE9BF316a5e5A5d28/VTGpmEYLKIslUPf66VQzHUneB0R7EhMpJJ_mGrMvTwY)
+- [LambdaWorks](https://github.com/lambdaclass/lambdaworks) This is a library where you're allowed to read the implementation of snark/stark cryptographic primitive. If you're more of a person who likes to read code, this is a good place to find out how things are done.
 
 By this point in the module, you should have a broad and multifaceted understanding of ZKPs. However, we're not done yet. Next, we'll tackle some key mathematical concepts that underpin this topic.
 
