@@ -33,7 +33,7 @@ Reference this PDF: https://securitylab.github.io/cs251-fall21/lectures/lecture1
 
 ## 5. Solve Some ZK Puzzles
 
-Some these problems and present to us how you did it: https://zkhack.dev/puzzles/
+Solve these problems and present to us how you did it: https://zkhack.dev/puzzles/
 
 ## 6. *OR YOUR OWN PROJECT*
 !!!!!! UNVEIL YOUR POWER ANON !!!!!
