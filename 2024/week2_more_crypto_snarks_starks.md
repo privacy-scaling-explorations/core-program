@@ -30,7 +30,7 @@ If you prefer to read some code, check out this article:
 
 ### Trusted Setups
 
-Trusted setups is a process to generate a bunch of different points on elliptic curve. You can use these points with polynomial commitment schemes. Each point have same generator but different power. You can use these points to represent the variable terms in the polynomial. Therefore, the result of the polynomial commitment scheme with trusted setup is also a point on the elliptic curve. [Read this article by inevitable Ethereum to understand the concept better](https://www.inevitableeth.com/en/home/concepts/pcs-trusted-setup)
+Trusted setups is a process to generate a bunch of different points on elliptic curve. You can use these points with polynomial commitment schemes. Each point has same generator but different power. You can use these points to represent the variable terms in the polynomial. Therefore, the result of the polynomial commitment scheme with trusted setup is also a point on the elliptic curve. [Read this article by inevitable Ethereum to understand the concept better](https://www.inevitableeth.com/en/home/concepts/pcs-trusted-setup)
 
 ### STARKs and SNARKs
 
@@ -44,7 +44,7 @@ zkSTARK and zkSNARK are in fact adjectives. They describe the type of proof syst
 4. ARgument: Need to match the nature of Soundness, almost impossible to lie to a Verifier.
 5. (of) Knowledge: Knowledge is required to produce proof.
 
-They can also be used together. Polygon zkEVM and zkSync Boojum, for example, uses zkSTARKs for individual proofs and zkSNARKs for the aggregated proof to "prove all the previous proofs are genrated correctly", therefore aggregate several zkSTARKs.
+They can also be used together. Polygon zkEVM and zkSync Boojum, for example, uses zkSTARKs for individual proofs and zkSNARKs for the aggregated proof to "prove all the previous proofs are generated correctly", therefore aggregate several zkSTARKs.
 ![polygon-zkevm](./assets/polygon-zkevm.png)
 [Source](https://docs.polygon.technology/zkEVM/architecture/)
 
@@ -52,7 +52,7 @@ You can also read [this article in 10 mins](https://medium.com/@ramsesfv/starks-
 
 ### From Computation to ZKPs
 
-There's a circuit diagram from [Vitalik's blog post](https://vitalik.eth.limo/general/2019/09/22/plonk.html), you will be asked to read it in week4. For now let's focus only on a digram from the article. It's a circuit below. It's arithematic, so the gate is addition and multiplication. This represent `x^3 + x + 5 = 35` and x is the only "input" here. It should be `3` to satisfy the gate. For the first gate, it should be `9` if you have to label the value for it. because `3 * 3 = 9`. All the value you label on the gate between are "witness". The answer and operation of each gate actually constrain the value of the witness, so this circuit is a constraint system. How to prove the circuit is correctly filled? You can either prove the gate correctly compute (gate constraint) or prove the neighbor gate (permutaiton constraint) is consistent. That's the main part of the proof. While in the formal proof system, all of your computation should be in polynomial.
+There's a circuit diagram from [Vitalik's blog post](https://vitalik.eth.limo/general/2019/09/22/plonk.html), you will be asked to read it in week4. For now let's focus only on a diagram from the article. It's a circuit below. It's arithmetic, so the gate is addition and multiplication. This represents `x^3 + x + 5 = 35` and x is the only "input" here. It should be `3` to satisfy the gate. For the first gate, it should be `9` if you have to label the value for it. because `3 * 3 = 9`. All the values you label on the gate between are "witness". The answer and operation of each gate actually constrain the value of the witness, so this circuit is a constraint system. How to prove the circuit is correctly filled? You can either prove the gate correctly compute (gate constraint) or prove the neighbor gate (permutation constraint) is consistent. That's the main part of the proof. While in the formal proof system, all of your computation should be in polynomial.
 ![Vitalik's circuit](./assets/vitalik-circuit.png)
 
 The process of converting a program to a proof is:
@@ -65,7 +65,7 @@ You can apply many arithmetization techniques to convert a program to a proof. T
 ![Program to Proof](./assets/program-to-proof.png)
 [Source](https://zk-learning.org/assets/lecture12.pdf)
 
-There're really a lot of combination like below taxonomy shows, but you don't need to know all of them at the moment.
+There're really a lot of combinations like below taxonomy shows, but you don't need to know all of them at the moment.
 ![Taxonomy](./assets/taxonomy.png)
 [Source](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
