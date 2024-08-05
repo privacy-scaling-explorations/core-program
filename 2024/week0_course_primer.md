@@ -46,7 +46,7 @@ sequenceDiagram
     GitHub->>Maintainer: Notify maintainer of approved PR
     Maintainer->>GitHub: Merge PR into main branch
     GitHub->>Developer: Notify developer of merged PR
-    GitHub->>All: Update branch status and notify team
+    GitHub->>Team: Update branch status and notify team
 ```
 
 ## Course Info
