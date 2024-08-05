@@ -29,6 +29,26 @@ When asking questions, it is important to consider several things before sending
 
 It's important to understand how to work with GitHub PR workflow in core program. Watch this [3 minutes video](https://youtu.be/jRLGobWwA3Y?si=6uZrn8mrd30QnUtW) to understand how to work with GitHub PR workflow.
 
+```mermaid
+sequenceDiagram
+    participant Developer
+    participant GitHub
+    participant Reviewer
+    participant Maintainer
+
+    Developer->>GitHub: Create branch and make changes
+    Developer->>GitHub: Push branch to repository
+    Developer->>GitHub: Open a pull request (PR)
+    GitHub->>Reviewer: Notify reviewer of PR
+    Reviewer->>GitHub: Review code and leave comments
+    Developer->>GitHub: Address comments and push updates
+    Reviewer->>GitHub: Approve changes
+    GitHub->>Maintainer: Notify maintainer of approved PR
+    Maintainer->>GitHub: Merge PR into main branch
+    GitHub->>Developer: Notify developer of merged PR
+    GitHub->>All: Update branch status and notify team
+```
+
 ## Course Info
 
 This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs). The scope has since expanded to include concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsualted under a broader umbrella called Programmable Cryptography (ProgCrypto).
