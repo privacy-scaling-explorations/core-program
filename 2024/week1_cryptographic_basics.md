@@ -140,6 +140,33 @@ component main = AddNumOnEllipticCurve();
 
 ### Write a circuit to prove inclusion in Merkle tree
 
+```mermaid
+graph TD
+    A[Root Hash]
+    subgraph Merkle Tree
+        B[Hash 0-0] --> A
+        C[Hash 0-1] --> A
+        D[Hash 1-0] --> B
+        E[Hash 1-1] --> B
+        F[Hash 2-0] --> C
+        G[Hash 2-1] --> C
+    end
+
+    subgraph Roles
+        I[Issuer] --> P
+        P[Prover] --> V
+        V[Verifier]
+    end
+
+    I --> P
+    P --> V
+
+    subgraph Proof Generation
+        L[Leaf Node] --> D
+        L --> G
+    end
+```
+
 TtheBC01 has a good example of a Merkle tree circuit [here](https://github.com/TtheBC01/zkSNARK-playground/blob/main/examples/merkle-tree/tree.circom)
 
 The main component is Poseidon hash. Poseidon hash maps sequences of elements to a fixed-length sequence of elements. You can use it to hash messages of arbitrary length or fixed length (such as in a Merkle tree, where typically two elements are hashed). Here you initialize the Poseidon hash with n = 2
