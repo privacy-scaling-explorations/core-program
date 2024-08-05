@@ -4,7 +4,29 @@
 
 In each of our modules, we will have a practical component so that you can get some hands-on experience as soon as possible. In this module, we will first start with some basics about circuit writing with Circom.
 
-### Getting Started with Circom (syntax + zkrepl)
+### Getting Started with Circom
+
+#### Understanding how a Circom circuit integrates to a system or application
+```mermaid
+sequenceDiagram
+    participant User
+    participant Application
+    participant CircomCompiler
+    participant ProofGenerator
+    participant Verifier
+
+    User->>Application: Inputs data for proof generation
+    Application->>CircomCompiler: Sends circuit definition and inputs
+    CircomCompiler->>Application: Compiles circuit to generate witness and proof
+    Application->>ProofGenerator: Passes witness and circuit data
+    ProofGenerator->>ProofGenerator: Generates cryptographic proof
+    ProofGenerator->>Application: Returns proof
+    Application->>Verifier: Sends proof for verification
+    Verifier->>Application: Verifies proof and returns result
+    Application->>User: Displays verification result
+```
+
+#### Syntax & zkrepl
 
 In order to get used to writing circuits, we will start with [zkREPL](https://zkrepl.dev/), which is an online REPL that allows you to write and compile Circom circuits in the browser (with no setup required). There are many good videos on Circom, such as this one:
 
