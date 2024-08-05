@@ -31,7 +31,7 @@ It's important to understand how to work with GitHub PR workflow in core program
 
 ## Course Info
 
-This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs). The scope has since expanded to include concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsualted under a broader umbrella called Programmable Cryptography (ProgCrypto).
+This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs). The scope has since expanded to include concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsulated under a broader umbrella called Programmable Cryptography (ProgCrypto).
 
 It's not only enough to know the fundamentals of ProgCrypto, but it's necessary to understand the culture of open-source development, public goods, and how to use Git and Github effectively.
 
@@ -43,7 +43,7 @@ A good summary of open-source culture, Git, and GitHub can be found in the follo
 
 📊 **The Way of Open Source (slides)**: [View here](https://docs.google.com/presentation/d/1wqyn6FnyINulTSEIWwZaVYak3ONbjTUi9shBOhAZkd8/edit?usp=sharing)
 
-Take sometime to watch the video and afterwards review the following links as further reference:
+Take some time to watch the video and afterwards review the following links as further reference:
 
 - [**Git Cheat Sheet (by Github)**](https://education.github.com/git-cheat-sheet-education.pdf) - A concise list of common commands provided by Github Education.
 - [**Comparing Git Workflow (by Atlassian)**](https://www.atlassian.com/git/tutorials/comparing-workflows) - This article by Atlassian compares popular workflows when using Git. For this course, a basic Feature Branching workflow should be sufficient.
