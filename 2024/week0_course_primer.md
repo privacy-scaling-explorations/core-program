@@ -83,6 +83,21 @@ Before we delve into the core content of the module, consider acquainting yourse
 - [Zero Knowledge Proofs: An illustrated primer [Part 1]](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
 - [Zero Knowledge Proofs: An illustrated primer [Part 2]](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
 
+Then lets to see a graphic explanation about the Zero-Knowledge proofs generic workflow:
+
+```mermaid
+sequenceDiagram
+    participant Issuer
+    participant Prover
+    participant Verifier
+
+    Issuer->>Prover: Issue secret and public data
+    Prover->>Verifier: Send proof
+    Verifier->>Prover: Verify proof
+    Verifier->>Verifier: Check validity
+    Verifier->>Issuer: Confirm verification result
+```
+
 Throughout this course, we will provide you with a set of reflection questions to check your understanding.
 
 :::info
