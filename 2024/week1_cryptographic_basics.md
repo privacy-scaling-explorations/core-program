@@ -191,6 +191,37 @@ Encryption is a technique used to encode data, making it readable only to those 
 
 **Asymmetric Encryption** - Also known as public-key encryption, this method uses a pair of keys: one for encryption and another for decryption. The RSA algorithm is one of the best known public-key algorithms.
 
+```mermaid
+---
+title: Symmetric vs Asymmetric Encryption
+---
+graph TD
+    subgraph Asymmetric Encryption
+        A2[Plaintext] -->|Encrypt with Public Key| B2[Ciphertext]
+        B2 -->|Decrypt with Private Key| C2[Plaintext]
+        D2[Public Key]
+        E2[Private Key]
+        A2 -- Public Key --> D2
+        D2 -.-> B2
+        B2 -.-> E2
+        E2 -.-> C2
+    end
+    subgraph Symmetric Encryption
+        A1[Plaintext] -->|Encrypt with Secret Key| B1[Ciphertext]
+        B1 -->|Decrypt with Secret Key| C1[Plaintext]
+        D1[Secret Key]
+        A1 -- Shared Secret Key --> D1
+        D1 -.-> C1
+    end
+
+    classDef symmetric fill:#FFDDDD,stroke:#FF0000,stroke-width:2px;
+    classDef asymmetric fill:#DDFFDD,stroke:#00FF00,stroke-width:2px;
+
+    class SymmetricEncryption symmetric;
+    class AsymmetricEncryption asymmetric;
+
+```
+
 The key difference between the two is the number of keys used: symmetric encryption uses one key for both encrypting and decrypting, while asymmetric encryption uses a different key for each (one public, one private). For a deeper understanding of symmetric and asymmetric encryption, please explore these resources:
 - [Symmetric vs. Asymmetric Encryption – What are differences?](https://www.ssl2buy.com/wiki/symmetric-vs-asymmetric-encryption-what-are-differences)
 - [AES Explained (Advanced Encryption Standard) - Computerphile [14:13]](https://www.youtube.com/watch?v=O4xNJsjtN6E)
