@@ -320,6 +320,34 @@ While RSA encryption is based on the hardness of factoring problem, there is ano
     - [The ElGamal Algorithm: a simple example [6:38]](https://www.youtube.com/watch?v=4xVCrTb_1II)
     - [ElGamal Encryption Algorithm](https://www.geeksforgeeks.org/elgamal-encryption-algorithm/)
 
+#### The ElGamal workflow sample
+##### Key Generation (Alice - message receiver)
+| Step | Description |
+| --- | --- |
+| Select **p** | **p** is avery large prime number |
+| Find a primitive root of *p*:g | |
+| Choose a random intenger **a** as her private key | 1<**a**<**p**-1 |
+| Compute **e**: **e**=**g**^**a** mod **p** | |
+| **Public key: (p,g,e)** | |
+
+##### Encryption (Bob - message sender)
+| Step | Description |
+| --- | --- |
+| Plaintext: m | m<p |
+| Select a random integer: **b** | 1<**b**<**p**-1 |
+| Compute two values C1 and c2, where |  |
+| **C1**=**g**^**b** mod **p** |  |
+| **C2**=**m** * **e**^**b** mod **p** |  |
+| **Ciphertext: (C1,C2)** | |
+
+##### Decryption (Alice - message receiver)
+| Step | Description |
+| --- | --- |
+| Plaintext: |  |
+| **x**=(**C1**)^**a** mod **p**|  |
+| **m**=**C2**^**x**^(**p**-2) mod **p** |  |
+| **Plaintext: m** | |
+
 :::info
 **🤔 Consider the following:**
 1. What is the Discrete Logarithm Problem (DLP)?
