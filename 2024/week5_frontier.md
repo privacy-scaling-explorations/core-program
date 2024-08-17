@@ -44,4 +44,13 @@ TODO - Finish this section
 
 ## ZKEmail
 
-TODO - Finish this section
+The [ZKEmail](https://github.com/zkemail) project is a fascinating application of Zero-Knowledge Proofs with traditional protocols (like emails and DKIM). A simple intersection of new and old technologies allow for fascinating new use-cases like treating emails as a wallet or even a peer-to-peer network of transfer.
+
+For a brief introduction, have a look at this short video: [Zuconnect 2023 ZK Day: ZK Email
+ (11:40)](https://www.youtube.com/watch?v=3jCKdxQ9Pfw)
+
+Have a look at the following:
+
+- [Technical explanatory blog post](https://blog.aayushg.com/zkemail/)
+- [Github Organization](https://github.com/zkemail)
+- [Main Website](https://prove.email/)
