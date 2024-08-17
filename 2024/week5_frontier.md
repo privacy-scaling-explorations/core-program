@@ -36,11 +36,32 @@ The properties of FHE are quite interesting, even though much work still needs t
 
 After you are done reading that, please go through the following:
 
-- TODO - insert additional items for further exploration
+#### Tutorials and Examples
+- **[Zama FHE Tutorials](https://github.com/zama-ai/awesome-zama?tab=readme-ov-file#tutorials)**: A list of Fully Homomorphic Encryption (FHE) resources created by Zama.
+- **[Homomorphic Encryption Example](https://github.com/homenc/HElib/tree/master/examples)**: Example codes using the HElib library. HElib is an open-source software library that implements homomorphic encryption.
+- **[Microsoft SEAL Examples](https://github.com/Microsoft/SEAL/tree/main/native/examples)**: Example codes and tutorials for Microsoft SEAL. Microsoft SEAL is an easy-to-use and powerful homomorphic encryption library.
+
+#### Key Papers and Articles
+- **[Gentry's Original Paper on FHE](https://eprint.iacr.org/2009/616.pdf)**: The foundational paper by Craig Gentry that introduced the first practical FHE scheme.
+- **[Homomorphic Encryption Standardization](https://homomorphicencryption.org/standard)**: Ongoing efforts and papers aimed at standardizing homomorphic encryption schemes.
+- **[Jeremy Kun's Overview on FHE](https://www.jeremykun.com/2024/05/04/fhe-overview/)**: A detailed blog post that provides an excellent overview of FHE concepts and advancements.
+
+#### Current Research
+- **[FHE.org Community](https://fhe.org)**: A hub for researchers and developers working on advancing FHE and other secure computation techniques.
+- **[TII Survey on FHE](https://eprint.iacr.org/2022/1602.pdf)**: A comprehensive survey paper that provides an in-depth overview of the current state of FHE research.
 
 ## TLSNotary
 
-TODO - Finish this section
+[TLSNotary](https://tlsnotary.org/) is a protocol that allows you to prove to a third party that you have received certain data from a web server, without allowing the third party to see the data itself. This is particularly useful for verifying the authenticity of the data you’ve received, such as bank statements or signed documents, without exposing sensitive information.
+It enables a client to prove data provenance—that data was honestly obtained from a specific server—while preserving privacy through Multi-Party Computation (MPC), without revealing the actual content to third parties or relying on a single trusted intermediary.
+
+For a brief overview, watch this video: [Verify Private Data with TLSNotary Plugins](https://www.youtube.com/watch?v=SDjmjiqmUFw)
+
+We also encourage you to take a look at the following:
+
+- [Explanatory Blog Post](https://pluto.xyz/blog/how-tlsnotary-works)
+- [GitHub Organization](https://github.com/tlsnotary)
+- [Main Website](https://tlsnotary.org/)
 
 ## ZKEmail
 
