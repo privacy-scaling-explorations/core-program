@@ -13,7 +13,7 @@
 
 Here, you will learn about an important restriction on Circom circuits.
 
-1. In the empty `scripts/compile-Multiplier3-groth16.sh`, create a script to compile `contracts/circuits/Multiplier3.circom` and create a verifier contract modelled after `compile-HelloWorld.sh`.
+1. In the empty `scripts/compile-Multiplier3-groth16.sh`, create a script to compile `contracts/circuits/Multiplier3.circom` and create a verifier contract modeled after `compile-HelloWorld.sh`.
 ```bash
 #!/bin/bash
 
@@ -444,7 +444,7 @@ template sudoku() {
         }
     }
 
-    // sum up the two inputs to get full solution and square the full solution
+    // sum up the two inputs to get the full solution and square the full solution
 
     component add = matAdd(9,9);
     
@@ -463,7 +463,7 @@ template sudoku() {
         }
     }
 
-    // check all rows and columns and blocks sum to 45 and sum of sqaures = 285
+    // check all rows and columns and blocks sum to 45 and sum of squares = 285
 
     component row[9];
     component col[9];
