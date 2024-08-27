@@ -9,7 +9,7 @@ Many zk proof systems are written in Rust. Learn Rust with [Rustlings](https://r
 ## Study
 
 When you start to learn ZK proof system, you are really advised to start from PLONK than any other proof system. There're a bunch of amazing articles out there, but instead of jumping into rabbit hole, you should start from [Vitalik's blog post](https://vitalik.eth.limo/general/2019/09/22/plonk.html) and focus on reading it all.
-With this article you can understand what is widely used plonkish style of circuit arithemization. For this article, you may be unable to understand all the details at once, but you should at least understand what does this diagram mean:
+With this article you can understand what is widely used plonkish style of circuit arithemization. For this article, you may be unable to understand all the details at once, but you should at least understand what this diagram mean:
 ![Vitalik's circuit](./assets/vitalik-circuit.png)
 
 Let's examine PLONK from a broader perspective compared to the detailed analysis in the paper. [ZKP MOOC Lec 5](https://www.youtube.com/watch?v=A0oZVEXav24)
@@ -27,4 +27,4 @@ In order to understand PLONKathon, you might need to understand the following co
 3. Lagrange interpolation https://en.wikipedia.org/wiki/Lagrange_polynomial
 4. FFT https://www.youtube.com/watch?v=h7apO7q16V0. Put it simply, FFT and Inverse FFT are turning polynomials from coefficient domain into evaluation domain and vice versa.
 5. Fiat-Shamir heuristic. Put it simply, normally interactive proof is done by sending the challenge to the verifier and the verifier will send the challenge to the prover. It's a way to turn the interactive proof into non-interactive proof by hashing the existing computation trace and use it as the challenge. 
-6. Library for PLONK implementaion, with focus on a production level implementation: [Jellyfish](https://github.com/EspressoSystems/jellyfish), [Dusk-network](https://github.com/dusk-network/plonk)
+6. Library for PLONK implementation, with focus on a production level implementation: [Jellyfish](https://github.com/EspressoSystems/jellyfish), [Dusk-network](https://github.com/dusk-network/plonk)
