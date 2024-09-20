@@ -72,6 +72,10 @@ Throughout this course, we will provide you with a set of reflection questions t
 3. What distinguishes interactive from non-interactive proofs?
 :::
 
+## Practical
+
+Many zk proof systems are written in Rust. Learn Rust with [Rustlings](https://rustlings.cool/). It's a game with nearly 100 challenges. You are required to finish it.
+
 ### Thought Experiments
 
 Engaging with these thought experiments will make abstract concepts more tangible and facilitate a deeper understanding of ZKPs. Each of these examples offers a unique perspective on the concept of zero-knowledge proofs:

@@ -1,10 +1,6 @@
 # Week 4 - PLONK
 
-The exercise this week is required to do, your group has to publish a blogpost on PLONK and present at the end of the week and finish Rustlings.
-
-## Practical
-
-Many zk proof systems are written in Rust. Learn Rust with [Rustlings](https://rustlings.cool/). It's a game with nearly 100 challenges. You are required to finish it.
+The exercise this week is required to do, your group has to publish a blogpost on PLONK and present at the end of the week.
 
 ## Study
 
