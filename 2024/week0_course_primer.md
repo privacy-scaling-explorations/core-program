@@ -29,6 +29,26 @@ When asking questions, it is important to consider several things before sending
 
 It's important to understand how to work with GitHub PR workflow in core program. Watch this [3 minutes video](https://youtu.be/jRLGobWwA3Y?si=6uZrn8mrd30QnUtW) to understand how to work with GitHub PR workflow.
 
+```mermaid
+sequenceDiagram
+    participant Developer
+    participant GitHub
+    participant Reviewer
+    participant Maintainer
+
+    Developer->>GitHub: Create branch and make changes
+    Developer->>GitHub: Push branch to repository
+    Developer->>GitHub: Open a pull request (PR)
+    GitHub->>Reviewer: Notify reviewer of PR
+    Reviewer->>GitHub: Review code and leave comments
+    Developer->>GitHub: Address comments and push updates
+    Reviewer->>GitHub: Approve changes
+    GitHub->>Maintainer: Notify maintainer of approved PR
+    Maintainer->>GitHub: Merge PR into main branch
+    GitHub->>Developer: Notify developer of merged PR
+    GitHub->>Team: Update branch status and notify team
+```
+
 ## Course Info
 
 This course was originally designed to help build the next generation of open-source contributors in the space of Zero Knowledge Proofs (ZKPs). The scope has since expanded to include concepts like Multi-Party Computation (MPC) and Fully Homomorphic Encryption (FHE). These topics can be encapsulated under a broader umbrella called Programmable Cryptography (ProgCrypto).
@@ -62,6 +82,21 @@ Before we delve into the core content of the module, consider acquainting yourse
 - [A Primer on Zero-Knowledge Proofs 🔏](https://medium.com/hackernoon/a-primer-on-zero-knowledge-proofs-892e6e277142)
 - [Zero Knowledge Proofs: An illustrated primer [Part 1]](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
 - [Zero Knowledge Proofs: An illustrated primer [Part 2]](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
+
+Then lets to see a graphic explanation about the Zero-Knowledge proofs generic workflow:
+
+```mermaid
+sequenceDiagram
+    participant Issuer
+    participant Prover
+    participant Verifier
+
+    Issuer->>Prover: Issue secret and public data
+    Prover->>Verifier: Send proof
+    Verifier->>Prover: Verify proof
+    Verifier->>Verifier: Check validity
+    Verifier->>Issuer: Confirm verification result
+```
 
 Throughout this course, we will provide you with a set of reflection questions to check your understanding.
 
