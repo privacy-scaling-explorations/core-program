@@ -74,7 +74,7 @@ Throughout this course, we will provide you with a set of reflection questions t
 
 ## Practical
 
-Many zk proof systems are written in Rust. Learn Rust with [Rustlings](https://rustlings.cool/). It's a game with nearly 100 challenges. You are required to finish it.
+Since many ZK proof systems are written in Rust, take the time to learn Rust with [Rustlings](https://rustlings.cool/). It is a game with nearly 100 challenges. You are required to finish it before the start of the program.
 
 ### Thought Experiments
 
