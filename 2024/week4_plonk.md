@@ -1,6 +1,6 @@
 # Week 4 - PLONK
 
-The exercise this week is required to do, your group has to publish a blogpost on PLONK and present at the end of the week and finish Rustlings.
+The exercise this week is required to do, your group has to publish a blog post on PLONK and present at the end of the week and finish Rustlings.
 
 ## Practical
 
@@ -8,8 +8,8 @@ Many zk proof systems are written in Rust. Learn Rust with [Rustlings](https://r
 
 ## Study
 
-When you start to learn ZK proof system, you are really advised to start from PLONK than any other proof system. There're a bunch of amazing articles out there, but instead of jumping into rabbit hole, you should start from [Vitalik's blog post](https://vitalik.eth.limo/general/2019/09/22/plonk.html) and focus on reading it all.
-With this article you can understand what is widely used plonkish style of circuit arithemization. For this article, you may be unable to understand all the details at once, but you should at least understand what this diagram mean:
+When you start to learn ZK proof system, you are really advised to start from PLONK than any other proof system. There're a bunch of amazing articles out there, but instead of jumping into a rabbit hole, you should start with [Vitalik's blog post](https://vitalik.eth.limo/general/2019/09/22/plonk.html) and focus on reading it all.
+With this article you can understand what is widely used plonkish style of circuit arithmetization. For this article, you may be unable to understand all the details at once, but you should at least understand what this diagram mean:
 ![Vitalik's circuit](./assets/vitalik-circuit.png)
 
 Let's examine PLONK from a broader perspective compared to the detailed analysis in the paper. [ZKP MOOC Lec 5](https://www.youtube.com/watch?v=A0oZVEXav24)
