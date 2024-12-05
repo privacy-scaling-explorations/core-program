@@ -88,7 +88,7 @@ To build a MVP allowing users to generate a valid proof.
 **Project Description:**
 
 - Contribution 1:
-  In the context of the Lean-IMT package of the library, which is an implementation of a merkle tree in which you can add, erase and modify leaves dinamically, I implemented a method that lets the user modify several leaves at the same time. This improved the worst-case time complexity from O(n.logn) to O(n) in the case where the number of leaves to update is similar to the size of the tree. This is done by updating every node of the tree at most once during the whole execution of the method.  
+  In the context of the Lean-IMT package of the library, which is an implementation of a merkle tree in which you can add, erase and modify leaves dynamically, I implemented a method that lets the user modify several leaves at the same time. This improved the worst-case time complexity from O(n.logn) to O(n) in the case where the number of leaves to update is similar to the size of the tree. This is done by updating every node of the tree at most once during the whole execution of the method.  
   A full analysis of the complexity is included in the contribution.
 
 - Contribution 2:
@@ -847,7 +847,7 @@ Fixes the startup failure of TLSNotary when certain configuration fields are mis
 - Soyeon Park
 
 **Project Description:**
-ZK-Regex is proving the pattern of a piece of content without revealing the content itself. Until now, there was the circuit written by circom and halo2, and our project is to write the circuit by rust and arkworks, the rust libraries for zkSNARK programming.
+ZK-Regex is proving the pattern of a piece of content without revealing the content itself. Until now, there were circuit written by circom and halo2, and our project is to write the circuit by rust and arkworks, the rust libraries for zkSNARK programming.
 
 **Technical Stack:**
 
