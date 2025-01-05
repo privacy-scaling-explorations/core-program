@@ -28,9 +28,9 @@ Read this article for a more in-depth mathematical look into how it works (optio
 If you prefer to read some code, check out this article:
 - [Explaining KZG Commitment with Code Walkthrough by Kai Jun Eer](https://kaijuneer.medium.com/explaining-kzg-commitment-with-code-walkthrough-216638a620c9)
 
-### Trusted Setups
+### Trusted Setup
 
-Trusted setups is a process to generate a bunch of different points on elliptic curve. You can use these points with polynomial commitment schemes. Each point has same generator but different power. You can use these points to represent the variable terms in the polynomial. Therefore, the result of the polynomial commitment scheme with trusted setup is also a point on the elliptic curve. [Read this article by inevitable Ethereum to understand the concept better](https://www.inevitableeth.com/en/home/concepts/pcs-trusted-setup)
+Trusted setup is a process to generate a bunch of different points on elliptic curve. You can use these points with polynomial commitment schemes. Each point has same generator but different power. You can use these points to represent the variable terms in the polynomial. Therefore, the result of the polynomial commitment scheme with trusted setup is also a point on the elliptic curve. [Read this article by inevitable Ethereum to understand the concept better](https://www.inevitableeth.com/en/home/concepts/pcs-trusted-setup)
 
 ### STARKs and SNARKs
 
