@@ -83,7 +83,7 @@ Before we delve into the core content of the module, consider acquainting yourse
 - [Zero Knowledge Proofs: An illustrated primer [Part 1]](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
 - [Zero Knowledge Proofs: An illustrated primer [Part 2]](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
 
-Then lets to see a graphic explanation about the Zero-Knowledge proofs generic workflow:
+Then let's look at a graphic explanation about the Zero-Knowledge proofs generic workflow:
 
 ```mermaid
 sequenceDiagram
