@@ -24,6 +24,9 @@ When you are done, feel free to browse these (optional) additional resources at 
 - [Sharing Knowledge without Sharing Data by Azer Bestavros [32:08]](https://www.youtube.com/watch?v=P2MmO458xu4)
 - [Accessible and Scalable: Secure Multi-Party Computation](https://multiparty.org/)
 - [Intro to MPC (Javascript tutorial and examples)](https://github.com/multiparty/jiff/blob/master/tutorials/0-intro-to-mpc.md)
+- [A Crash Course on MPC by Daniel Escudero](https://medium.com/applied-mpc/a-crash-course-on-mpc-part-0-311fae2ce184)
+- [An Introduction to Secret-Sharing-Based Secure Multiparty Computation ](https://eprint.iacr.org/2022/062.pdf)
+- [A Pragmatic Introduction to Secure Multi-Party Computation](https://securecomputation.org/docs/pragmaticmpc.pdf)
 
 ### Fully Homomorphic Encryption (FHE)
 
@@ -45,7 +48,6 @@ After you are done reading that, please go through the following:
 - **[Gentry's Original Paper on FHE](https://eprint.iacr.org/2009/616.pdf)**: The foundational paper by Craig Gentry that introduced the first practical FHE scheme.
 - **[Homomorphic Encryption Standardization](https://homomorphicencryption.org/standard)**: Ongoing efforts and papers aimed at standardizing homomorphic encryption schemes.
 - **[Jeremy Kun's Overview on FHE](https://www.jeremykun.com/2024/05/04/fhe-overview/)**: A detailed blog post that provides an excellent overview of FHE concepts and advancements.
-
 #### Current Research
 - **[FHE.org Community](https://fhe.org)**: A hub for researchers and developers working on advancing FHE and other secure computation techniques.
 - **[TII Survey on FHE](https://eprint.iacr.org/2022/1602.pdf)**: A comprehensive survey paper that provides an in-depth overview of the current state of FHE research.
