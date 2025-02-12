@@ -79,6 +79,17 @@ Groth16 is one of the famous zkSNARKs. Just remember that its biggest advantage 
 STARKs are a type of zero-knowledge proof system that is post-quantum secure. It usually involves larger proof size and faster proof size. There are two articles written by Vitalik that explain STARKs in detail. You can read them here:
 1. https://vitalik.eth.limo/general/2017/11/09/starks_part_1.html
 2. https://vitalik.eth.limo/general/2017/11/22/starks_part_2.html
+3. **Optional article**: https://vitalik.eth.limo/general/2018/07/21/starks_part_3.html
+
+
+####  Optional Resources (For Deepening Your Understanding)
+
+- **[Stark Anatomy](https://aszepieniec.github.io/stark-anatomy/)**  
+  This six-part tutorial series dives into the mechanics of the STARK proof system. It’s designed for a technically-inclined audience with a basic understanding of mathematics and programming.
+
+- **[Exploring Circle STARKs](https://vitalik.eth.limo/general/2024/07/23/circlestarks.html)**  
+  An introduction to Circle STARKs, an optimization that enhances the efficiency and scalability of STARK proofs using structured polynomial commitments.
+
 
 # 💪 Exercises
 
