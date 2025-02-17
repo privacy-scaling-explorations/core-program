@@ -1,6 +1,6 @@
 ## Comprehension
 
-1. **Three-Colouring Graph problem with Hats**: To prove possession of a valid three-coloring for a given graph, the solution is written on the ground with each node covered with hats. The verifier can check the color under two connected hats without seeing the entire solution. The prover thus proves knowledge of a valid coloring without revealing it. This can be repeated multiple times to increase confidence. This is an interactive proof.
+1. **Three-Coloring Graph problem with Hats**: To prove possession of a valid three-coloring for a given graph, the solution is written on the ground with each node covered with hats. The verifier can check the color under two connected hats without seeing the entire solution. The prover thus proves knowledge of a valid coloring without revealing it. This can be repeated multiple times to increase confidence. This is an interactive proof.
 
 2. **Ali Baba’s Cave analogy**: In the cave, there's a magical door leading to two passages. The prover demonstrates knowledge of the secret word to open the door by complying with the verifier's request to exit through a chosen passage, without revealing the word itself. This can be repeated multiple times to increase confidence. This is an interactive proof.
 
