@@ -121,7 +121,7 @@ Scroll's zk-rollup implementation makes use of this commitment scheme to commit 
 
 - [KZG in Practice by Scroll](https://scroll.io/blog/kzg)
 - [KZG Polynomial Commitments by Dankrad Feist](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)
-- [KZG Polynomial Commitments by Alin Tomescu](https://alinush.github.io/2020/05/06/kzg-polynomial-commitments.html)
+- [KZG Polynomial Commitments by Alin Tomescu](https://alinush.github.io/kzg)
 
 ## Trusted Setup
 
