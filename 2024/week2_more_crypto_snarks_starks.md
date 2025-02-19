@@ -63,7 +63,7 @@ The process of converting a program to a proof is:
 You can apply many arithmetization techniques to convert a program to a proof. There are R1CS, Plonkish, AIR. You can also have different combination of proving scheme like Polynomial IOP and PCS in below diagram.
 
 ![Program to Proof](./assets/program-to-proof.png)
-[Source](https://zk-learning.org/assets/lecture12.pdf)
+[Source](https://rdi.berkeley.edu/zk-learning/assets/lecture14.pdf)
 
 There're really a lot of combinations like below taxonomy shows, but you don't need to know all of them at the moment.
 ![Taxonomy](./assets/taxonomy.png)
