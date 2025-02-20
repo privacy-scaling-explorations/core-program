@@ -10,7 +10,7 @@ We recommend setting aside sufficient time to maximize your study efforts and ad
 </details>
 
 <details>
-<summary>Where will the co-working space be located for weekly onsite meeting?</summary>
+<summary>Where will the co-working space be located for weekly on-site meetings?</summary>
 The location varies depending on the country.
 The official venue details for each country will be shared with participants soon.
 
