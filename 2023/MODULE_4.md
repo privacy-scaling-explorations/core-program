@@ -75,7 +75,7 @@ Since it is always helpful to take a look at the same problem from different ang
 
 - [**Why and How zk-SNARK Works**](https://medium.com/@imolfar/why-and-how-zk-snark-works-1-introduction-the-medium-of-a-proof-d946e931160) (highly recommended) - Originally [**a paper**](https://arxiv.org/abs/1906.07221) by Maksym Petkus, it dives into the specifics of how a zkSNARK is constructed, it has been converted to a series of blog posts for easy consumption.
 - [**ZK Whiteboard Sessions**](https://zkhack.dev/whiteboard/) - There are three videos by Dan Boneh (he's the B in BLS Signatures) providing a very compelling introduction to zkSNARKs. I highly recommend at least watching ***What is a SNARK?*** and ***Building a SNARK (Part I)***.
-- [**The MoonMath Manual to zkSNARKs**](https://leastauthority.com/community-matters/moonmath-manual/) - This is a free online textbook PDF that explains many of the necessary concepts. It is an excellent reference guide whenever you need to dive into specific topics.
+- [**The MoonMath Manual for zkSNARKs**](https://leastauthority.com/community-matters/moonmath-manual/) - This is a free online textbook PDF that explains many of the necessary concepts. It is an excellent reference guide whenever you need to dive into specific topics.
 
 ### 3.1 Homomorphic Hiding and Blind Evaluation
 
