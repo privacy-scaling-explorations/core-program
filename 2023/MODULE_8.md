@@ -42,4 +42,4 @@ Finally, it's game time. Pick a project that resonates with you and dive in. Thi
 1. Browse the [good first issue tracker](https://pse-gfis.vercel.app/).
 2. Pick an issue and comment to let the maintainer know you're tackling it.
 
-📣 Beyond this point, you'll largely be on your own. But if you get stuck or got questions, just shoot us a message on Discord!
+📣 Beyond this point, you'll largely be on your own. But if you get stuck or have questions, just shoot us a message on Discord!
