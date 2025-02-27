@@ -4,7 +4,7 @@ Provide a concise description of the changes in this pull request (e.g., correct
 
 ### Related Issues
 
-Mention any related issues here, using the `#issue_number` syntax.
+Mention related issues here, using the `#issue_number` syntax.
 
 ### Affected Tutorials
 
