@@ -22,7 +22,7 @@ We encourage contributions to improve this content. Please follow these steps:
 
 1. **Analyze the Content**: Review the existing materials.
 2. **Report Issues**: Create an issue if you find errors or areas for improvement.
-3. **Submit Pull Requests**: Submit a pull request with your changes once you are confident they will be approved.
+3. **Submit Pull Requests**: Submit a pull request with your changes once you are confident it will be approved.
 
 If an existing issue is not being worked on, feel free to address it and make a pull request.
 
