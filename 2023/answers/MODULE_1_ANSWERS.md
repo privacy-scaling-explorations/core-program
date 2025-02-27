@@ -15,7 +15,7 @@
 3. $(7+15)\ \text{mod}\ 13 = (22)\ \text{mod}\ 13 = 9$
 4. $(7\ \text{mod}\ 13 + 15\ \text{mod}\ 13)\ \text{mod}\ 13 = (7+2)\ \text{mod}\ 13 = 9$
 
-Since the results of the third and fourth calculations match, they do follow a "group structure." Notice that, it doesn't matter if you apply the `mod` immediately for each number (like in Q4) or at the end (like in Q3).
+Since the results of the third and fourth calculations match, they follow a "group structure." Notice that, it doesn't matter if you apply the `mod` immediately for each number (like in Q4) or at the end (like in Q3).
 
 ## Generators
 
